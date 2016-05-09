@@ -1,0 +1,102 @@
+<manifest alg="2" build="2015.1.1.343" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" ftp_hostname="ftp://segart.com" ftp_rootfolder="//power_brief" exportTarget="FTP" domain="www.segart.com/power_brief" resolutions="1x" timestamp="1460298852963">
+  <folder name="assets">
+    <file name="video.jpg" crc="3894164555" seo="true" mt="1460227432000"/>
+    <file name="chef.mp4" crc="4236423159" seo="true" mt="1454983945000"/>
+  </folder>
+  <folder name="images">
+    <file name="calcular.png" crc="142283875" seo="true" ref="channels"/>
+    <file name="siguiente.png" crc="439003641" seo="true" ref="channels:activity:materials"/>
+    <file name="enviar.png" crc="4129721003" seo="true" ref="brands"/>
+    <file name="home.png" crc="3764442444" seo="true" ref="enviado:chef"/>
+    <file name="chef.jpg" crc="3830316917" seo="true" ref="chef:fichas:res:video:actividades"/>
+    <file name="dem.png" crc="4226561891" seo="true" ref="fichas"/>
+    <file name="champinones.png" crc="199441193" seo="true" ref="fichas"/>
+    <file name="pollo.png" crc="4293529898" seo="true" ref="fichas"/>
+    <file name="vegetales.png" crc="358426163" seo="true" ref="fichas"/>
+    <file name="pescado.png" crc="499303296" seo="true" ref="fichas"/>
+    <file name="res.png" crc="456656606" seo="true" ref="fichas"/>
+    <file name="ficha1.jpg" crc="4203464546" seo="true" ref="res"/>
+    <file name="ficha2.jpg" crc="4143033700" seo="true" ref="res"/>
+    <file name="actividad_1.jpg" crc="3855424482" seo="true" ref="actividades"/>
+    <file name="actividad2.jpg" crc="489442486" seo="true" ref="actividades"/>
+    <file name="actividad3.jpg" crc="4016808146" seo="true" ref="actividades"/>
+    <file name="actividad4.jpg" crc="190233944" seo="true" ref="actividades"/>
+  </folder>
+  <folder name="css">
+    <file name="site_global.css" crc="131700929"/>
+    <file name="index.css" crc="36898306" ref="index"/>
+    <file name="channels.css" crc="128715755" ref="channels"/>
+    <file name="materials.css" crc="150835599" ref="materials"/>
+    <file name="brands.css" crc="317496596" ref="brands"/>
+    <file name="activity.css" crc="3793731990" ref="activity"/>
+    <file name="enviado.css" crc="74747426" ref="enviado"/>
+    <file name="video.css" crc="3983767510" ref="video"/>
+    <file name="res.css" crc="261349019" ref="res"/>
+    <file name="fichas.css" crc="387659364" ref="fichas"/>
+    <file name="actividades.css" crc="3927535799" ref="actividades"/>
+    <file name="chef.css" crc="3842358878" ref="chef"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="484278746" ref="index:channels:activity:materials:brands:enviado:chef:fichas:res:video:actividades"/>
+    <file name="museutils.js" crc="531812214" ref="index:channels:activity:materials:brands:enviado:chef:fichas:res:video:actividades"/>
+    <file name="whatinput.js" crc="84559013" ref="index:channels:activity:materials:brands:enviado:chef:fichas:res:video:actividades"/>
+  </folder>
+  <file name="index.html" crc="4270595253" seo="true" mt="1460223139136" redirect="true"/>
+  <file name="channels.html" crc="28430340" seo="true" mt="1460257038861" redirect="true"/>
+  <file name="activity.html" crc="4252666711" seo="true" mt="1460232110414" redirect="true"/>
+  <file name="materials.html" crc="473789599" seo="true" mt="1460298809473" redirect="true"/>
+  <file name="brands.html" crc="4032946820" seo="true" mt="1460270802068" redirect="true"/>
+  <file name="enviado.html" crc="3760808526" seo="true" mt="1460225783624" redirect="true"/>
+  <file name="chef.html" crc="269373474" seo="true" mt="1460231159179" redirect="true"/>
+  <file name="fichas.html" crc="231507443" seo="true" mt="1460227041735" redirect="true"/>
+  <file name="res.html" crc="3936943415" seo="true" mt="1460227025355" redirect="true"/>
+  <file name="video.html" crc="4213356912" seo="true" mt="1460229418464" redirect="true"/>
+  <file name="actividades.html" crc="434929288" seo="true" mt="1460228012426" redirect="true"/>
+  <site>
+    <asset filename="video.jpg" muse_href="upload:U871"/>
+    <asset filename="chef.mp4" muse_href="upload:U873"/>
+  </site>
+  <renditions>
+    <rendition device="desktop">
+      <page name="Channels" filename="channels.html" muse_href="page:U93" master="U72">
+        <breakpoint uid="U83" maxwidth="1024" minwidth="0" squishy="true"/>
+      </page>
+      <masterPage name="A-Pág. maestra" master="U62" uid="U72">
+        <breakpoint uid="U73" maxwidth="1024" minwidth="0" squishy="true"/>
+      </masterPage>
+      <masterPage name="None" master="null" uid="U62">
+        <breakpoint uid="U63" maxwidth="1024" minwidth="0" squishy="true"/>
+      </masterPage>
+      <page name="Portada" filename="index.html" muse_href="page:U186" master="U72">
+        <breakpoint uid="U175" maxwidth="1024" minwidth="0" squishy="true"/>
+      </page>
+      <page name="Activity" filename="activity.html" muse_href="page:U281" master="U72">
+        <breakpoint uid="U265" maxwidth="1024" minwidth="0" squishy="true"/>
+      </page>
+      <page name="Materials" filename="materials.html" muse_href="page:U309" master="U72">
+        <breakpoint uid="U294" maxwidth="1024" minwidth="0" squishy="true"/>
+      </page>
+      <page name="Brands" filename="brands.html" muse_href="page:U355" master="U72">
+        <breakpoint uid="U342" maxwidth="1024" minwidth="0" squishy="true"/>
+      </page>
+      <page name="Enviado" filename="enviado.html" muse_href="page:U389" master="U72">
+        <breakpoint uid="U376" maxwidth="1024" minwidth="0" squishy="true"/>
+      </page>
+      <page name="CHEF" filename="chef.html" muse_href="page:U426" master="U72">
+        <breakpoint uid="U411" maxwidth="1024" minwidth="0" squishy="true"/>
+      </page>
+      <page name="Fichas" filename="fichas.html" muse_href="page:U494" master="U72">
+        <breakpoint uid="U468" maxwidth="1024" minwidth="0" squishy="true"/>
+      </page>
+      <page name="Res" filename="res.html" muse_href="page:U715" master="U72">
+        <breakpoint uid="U689" maxwidth="1024" minwidth="0" squishy="true"/>
+      </page>
+      <page name="Video" filename="video.html" muse_href="page:U775" master="U72">
+        <breakpoint uid="U749" maxwidth="1024" minwidth="0" squishy="true"/>
+      </page>
+      <page name="Actividades" filename="actividades.html" muse_href="page:U829" master="U72">
+        <breakpoint uid="U803" maxwidth="1024" minwidth="0" squishy="true"/>
+      </page>
+    </rendition>
+  </renditions>
+</manifest>

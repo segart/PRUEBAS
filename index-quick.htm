@@ -1,0 +1,3190 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0013)about:internet -->
+<html manifest="offline.appcache">
+    <head><meta content='IE=Edge' http-equiv='X-UA-Compatible'>
+    <meta http-equiv='Content-Type' content='text/html;charset=UTF-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta name='GENERATOR' content='SpreadsheetConverter  version 8.2.6550.0)' />
+
+<!-- The parts of this webpage that is defined by the original spreadsheet have the same copyright as the original spreadsheet. -->
+<!-- The generic Excel-related parts of this page is Copyright (C) 2002-2016 Framtidsforum I&M AB, Sweden. -->
+
+    <title>materiales</title>
+    <link rel="stylesheet" href="assets/css/app.min.css" />
+    <script type="text/javascript" src="assets/js/app.min.js"></script>
+    <script type="text/javascript">
+var ssc=ssc||{};ssc.APPNAME='materiales';
+        $(function(){
+            var calendar_dateFormats = {};
+            var defaultDateFmt = 'dd/mm/yyyy';
+            postcode();
+ ssc.active_sheet_selector = 'div.jw-content > div.jw-steps-wrap > div.jw-step > div.container-fluid.ssc-reponsive-sheet > div.row > section';
+          $w = $('#formc');
+	        $w.wizard({
+			    autoHeight:false,
+			    externalPanel:{
+			    enable:true,
+			    refPanel:$('.wizardPanel')
+			    },
+			    buttons: {
+				    previousText:'Previous',
+				    nextText:'Next',
+				    finishText:'Finish',
+                    finishHide: true,
+                    previousTitle: 'navigate to previous page',
+                    nextTitle:'navigate to next page',
+                    finishTitle:'submit the form',
+                    cancelText:'Cancel',
+                    cancelTitle:'resets the form and navigate to the first step'
+                },
+			    cancel: function(event, ui) {
+				    $w.wizard('firstStep');
+				    resetClick();
+			    },
+			    previous: function(event, ui) {
+				    
+			    },
+			    next: function(event, ui) {
+				    
+                    equalheight(ssc.active_sheet_selector);
+			    },
+			    finish: function(event, ui) {
+                    submitClick();
+			    }
+		    });
+            $('.toolbar-button-print').css('margin-left','8px').insertAfter('.jw-button-finish');
+          $('#xlew_3_15_13').slider({
+                orientation:'horizontal',
+                min:0,
+                max:10,
+                step: 1,
+                
+                value: 0
+            })
+            .on('slideStop', function(s){$('#xlew_3_15_13').val(s.value);recalc_onclick('xlew_3_15_13');});
+
+            /*first element with class '.slider-handle.round' is first handle. i.e. prp[0] is first handle of slider and prp[1] is second handle.*/
+            var prp = $('.slider-handle.round');
+            $(prp[0]).attr({
+                'data-sheet': '3',
+                'data-row': '15',
+                'data-col': '13',
+                'tabindex': '2'
+            });
+          $('#xlew_3_25_13').slider({
+                orientation:'horizontal',
+                min:0,
+                max:10000,
+                step: 1000,
+                
+                value: 0
+            })
+            .on('slideStop', function(s){$('#xlew_3_25_13').val(s.value);recalc_onclick('xlew_3_25_13');});
+
+            /*first element with class '.slider-handle.round' is first handle. i.e. prp[0] is first handle of slider and prp[1] is second handle.*/
+            var prp = $('.slider-handle.round');
+            $(prp[0]).attr({
+                'data-sheet': '3',
+                'data-row': '25',
+                'data-col': '13',
+                'tabindex': '7'
+            });
+          $('#xlew_3_35_13').slider({
+                orientation:'horizontal',
+                min:0,
+                max:10000,
+                step: 1000,
+                
+                value: 0
+            })
+            .on('slideStop', function(s){$('#xlew_3_35_13').val(s.value);recalc_onclick('xlew_3_35_13');});
+
+            /*first element with class '.slider-handle.round' is first handle. i.e. prp[0] is first handle of slider and prp[1] is second handle.*/
+            var prp = $('.slider-handle.round');
+            $(prp[0]).attr({
+                'data-sheet': '3',
+                'data-row': '35',
+                'data-col': '13',
+                'tabindex': '11'
+            });
+          $('#xlew_3_45_13').slider({
+                orientation:'horizontal',
+                min:0,
+                max:100,
+                step: 1,
+                
+                value: 0
+            })
+            .on('slideStop', function(s){$('#xlew_3_45_13').val(s.value);recalc_onclick('xlew_3_45_13');});
+
+            /*first element with class '.slider-handle.round' is first handle. i.e. prp[0] is first handle of slider and prp[1] is second handle.*/
+            var prp = $('.slider-handle.round');
+            $(prp[0]).attr({
+                'data-sheet': '3',
+                'data-row': '45',
+                'data-col': '13',
+                'tabindex': '15'
+            });
+          $('#xlew_3_55_13').slider({
+                orientation:'horizontal',
+                min:0,
+                max:100,
+                step: 1,
+                
+                value: 0
+            })
+            .on('slideStop', function(s){$('#xlew_3_55_13').val(s.value);recalc_onclick('xlew_3_55_13');});
+
+            /*first element with class '.slider-handle.round' is first handle. i.e. prp[0] is first handle of slider and prp[1] is second handle.*/
+            var prp = $('.slider-handle.round');
+            $(prp[0]).attr({
+                'data-sheet': '3',
+                'data-row': '55',
+                'data-col': '13',
+                'tabindex': '19'
+            });
+          $('#xlew_3_65_13').slider({
+                orientation:'horizontal',
+                min:0,
+                max:100,
+                step: 1,
+                
+                value: 0
+            })
+            .on('slideStop', function(s){$('#xlew_3_65_13').val(s.value);recalc_onclick('xlew_3_65_13');});
+
+            /*first element with class '.slider-handle.round' is first handle. i.e. prp[0] is first handle of slider and prp[1] is second handle.*/
+            var prp = $('.slider-handle.round');
+            $(prp[0]).attr({
+                'data-sheet': '3',
+                'data-row': '65',
+                'data-col': '13',
+                'tabindex': '23'
+            });
+          $('#xlew_3_75_13').slider({
+                orientation:'horizontal',
+                min:0,
+                max:100,
+                step: 1,
+                
+                value: 0
+            })
+            .on('slideStop', function(s){$('#xlew_3_75_13').val(s.value);recalc_onclick('xlew_3_75_13');});
+
+            /*first element with class '.slider-handle.round' is first handle. i.e. prp[0] is first handle of slider and prp[1] is second handle.*/
+            var prp = $('.slider-handle.round');
+            $(prp[0]).attr({
+                'data-sheet': '3',
+                'data-row': '75',
+                'data-col': '13',
+                'tabindex': '27'
+            });
+          $('#xlew_3_85_13').slider({
+                orientation:'horizontal',
+                min:0,
+                max:10,
+                step: 1,
+                
+                value: 0
+            })
+            .on('slideStop', function(s){$('#xlew_3_85_13').val(s.value);recalc_onclick('xlew_3_85_13');});
+
+            /*first element with class '.slider-handle.round' is first handle. i.e. prp[0] is first handle of slider and prp[1] is second handle.*/
+            var prp = $('.slider-handle.round');
+            $(prp[0]).attr({
+                'data-sheet': '3',
+                'data-row': '85',
+                'data-col': '13',
+                'tabindex': '31'
+            });
+          $('#xlew_3_95_13').slider({
+                orientation:'horizontal',
+                min:0,
+                max:10,
+                step: 1,
+                
+                value: 0
+            })
+            .on('slideStop', function(s){$('#xlew_3_95_13').val(s.value);recalc_onclick('xlew_3_95_13');});
+
+            /*first element with class '.slider-handle.round' is first handle. i.e. prp[0] is first handle of slider and prp[1] is second handle.*/
+            var prp = $('.slider-handle.round');
+            $(prp[0]).attr({
+                'data-sheet': '3',
+                'data-row': '95',
+                'data-col': '13',
+                'tabindex': '35'
+            });
+          $('#xlew_3_105_13').slider({
+                orientation:'horizontal',
+                min:0,
+                max:10,
+                step: 1,
+                
+                value: 0
+            })
+            .on('slideStop', function(s){$('#xlew_3_105_13').val(s.value);recalc_onclick('xlew_3_105_13');});
+
+            /*first element with class '.slider-handle.round' is first handle. i.e. prp[0] is first handle of slider and prp[1] is second handle.*/
+            var prp = $('.slider-handle.round');
+            $(prp[0]).attr({
+                'data-sheet': '3',
+                'data-row': '105',
+                'data-col': '13',
+                'tabindex': '39'
+            });
+          $('#xlew_3_115_13').slider({
+                orientation:'horizontal',
+                min:0,
+                max:10,
+                step: 1,
+                
+                value: 0
+            })
+            .on('slideStop', function(s){$('#xlew_3_115_13').val(s.value);recalc_onclick('xlew_3_115_13');});
+
+            /*first element with class '.slider-handle.round' is first handle. i.e. prp[0] is first handle of slider and prp[1] is second handle.*/
+            var prp = $('.slider-handle.round');
+            $(prp[0]).attr({
+                'data-sheet': '3',
+                'data-row': '115',
+                'data-col': '13',
+                'tabindex': '43'
+            });
+          $('#xlew_3_125_13').slider({
+                orientation:'horizontal',
+                min:0,
+                max:100,
+                step: 1,
+                
+                value: 0
+            })
+            .on('slideStop', function(s){$('#xlew_3_125_13').val(s.value);recalc_onclick('xlew_3_125_13');});
+
+            /*first element with class '.slider-handle.round' is first handle. i.e. prp[0] is first handle of slider and prp[1] is second handle.*/
+            var prp = $('.slider-handle.round');
+            $(prp[0]).attr({
+                'data-sheet': '3',
+                'data-row': '125',
+                'data-col': '13',
+                'tabindex': '47'
+            });
+          $('#xlew_3_135_13').slider({
+                orientation:'horizontal',
+                min:0,
+                max:10,
+                step: 1,
+                
+                value: 0
+            })
+            .on('slideStop', function(s){$('#xlew_3_135_13').val(s.value);recalc_onclick('xlew_3_135_13');});
+
+            /*first element with class '.slider-handle.round' is first handle. i.e. prp[0] is first handle of slider and prp[1] is second handle.*/
+            var prp = $('.slider-handle.round');
+            $(prp[0]).attr({
+                'data-sheet': '3',
+                'data-row': '135',
+                'data-col': '13',
+                'tabindex': '51'
+            });
+          $('#xlew_3_145_13').slider({
+                orientation:'horizontal',
+                min:0,
+                max:10,
+                step: 1,
+                
+                value: 0
+            })
+            .on('slideStop', function(s){$('#xlew_3_145_13').val(s.value);recalc_onclick('xlew_3_145_13');});
+
+            /*first element with class '.slider-handle.round' is first handle. i.e. prp[0] is first handle of slider and prp[1] is second handle.*/
+            var prp = $('.slider-handle.round');
+            $(prp[0]).attr({
+                'data-sheet': '3',
+                'data-row': '145',
+                'data-col': '13',
+                'tabindex': '55'
+            });
+          $('#xlew_3_155_13').slider({
+                orientation:'horizontal',
+                min:0,
+                max:10,
+                step: 1,
+                
+                value: 0
+            })
+            .on('slideStop', function(s){$('#xlew_3_155_13').val(s.value);recalc_onclick('xlew_3_155_13');});
+
+            /*first element with class '.slider-handle.round' is first handle. i.e. prp[0] is first handle of slider and prp[1] is second handle.*/
+            var prp = $('.slider-handle.round');
+            $(prp[0]).attr({
+                'data-sheet': '3',
+                'data-row': '155',
+                'data-col': '13',
+                'tabindex': '60'
+            });
+
+
+			ssc.formSubmitModule.config({before_onlineformsubmit_callback:function(){
+                    $('#onlinefom-submit-conformation-modal').modal('show');
+                    ssc.formSubmitModule.submitThisForm(function(){$('#formc').submit();});
+                },
+                after_onlineformsubmit_callback : function(status,msg){
+                    $('#onlinefom-submit-conformation-modal').modal('hide');
+                    var $statusModel = $('#onlineform-submit-status-modal');
+                    if(status === 'error'){$statusModel.find('.modal-title').text('Submit Fail.');
+                        $statusModel.find('.modal-body p').text(msg);
+                        $statusModel.find('.modal-body .status-icon').removeClass('glyphicon-ok-circle').addClass('glyphicon-warning-sign').css('color','rgb(198,0,0)');
+                        $statusModel.modal('show');}
+                    else{$statusModel.find('.modal-title').text('Submit Successful.');
+                    $statusModel.find('.modal-body p').text('The form was successfully submitted.');
+                    $statusModel.find('.modal-body .status-icon').removeClass('glyphicon-warning-sign warn-icon').addClass('glyphicon-ok-circle').css('color','rgb(53, 197, 21)');             
+                    if($('#xl_redirect_success').length > 0 || false){
+                        $statusModel.find('#onlineform-submit-status-modal-close-btn').text('Continue');
+                        $statusModel.find('#onlineform-submit-status-modal-close-btn').click(function(){
+                            if($('#xl_redirect_success').length > 0){ 
+                                var url_ = $('#xl_redirect_success').val();
+                                url_+=(url_.indexOf('paypal')>-1)?'':'';
+                                window.open(url_,'_top');
+                            }else{
+                                window.open('','_top');
+                            }  
+                        });                 
+                   } 
+                   $statusModel.modal('show');}
+                },after_offlineformsubmit_callback : function(status){
+                    if(status ==='success') {
+                        $('#offlineforms-submit-conformation-yes-btn').button('reset');
+                        $('#offlineforms-submit-conformation-modal').modal('hide');
+                        $('body').removeClass('modal-open');
+                        $('.modal-backdrop').remove();
+                    }else if(status === 'error'){
+                        $('#offlineforms-submit-conformation-modal .info').text('Submit error : Please try later.');
+                        $('#offlineforms-submit-conformation-modal .conform').text('');
+                        $('#offlineforms-submit-conformation-yes-btn').hide();
+                        $('#offlineforms-submit-conformation-modal .btn-link').text('close');
+                        $('#offlineforms-submit-conformation-modal .btn-link').show();
+                    }}});
+            var focusCtrl=$('input:not(":hidden,:button,[readonly=readonly],:disabled"),select,a.ui-slider-handle,textarea,a.ui-state-active');
+			                <!-- to prevent popup dialog to appear in page load.-->
+			                if(focusCtrl!= undefined && focusCtrl.filter(':first').hasClass('form-control')==false){
+				                focusCtrl.filter(':first').focus();
+			                }
+
+                            <!--To make readonly elements background transparent-->
+                            $('input[type=text][readonly]').css('background','transparent');
+        });
+ssc.checkIfMSIE = function() {
+            var a = window.navigator.userAgent,
+                b = a.indexOf('MSIE '),
+                c = a.indexOf('.NET CLR');
+            return !(-1 === b && -1 === c)
+        };
+    </script>
+    <link rel='stylesheet' type='text/css' href='' media='print' id='printallcss' />
+    </head>
+    <body onload="LoadFromQueryString();recalc_onclick('');" onunload='' browserstorage="false">
+        <noscript style='color:#F15623;'>
+            The webpage is not working since JavaScript is not enabled. 
+            Most likely, you are viewing using Dropbox website or another limited browser environment.
+        </noscript>
+
+        <form id='formc' name='formc' method='post' action='https://www.spreadsheetserver.com/server1/g/submit/submit.aspx' target='_self'>
+		    <input type='hidden' id='xl_spreadsheet' name='xl_spreadsheet' value='materiales' />
+            <input type='hidden' id='xl_client' name='xl_client' value='x8.2.6550.0' />
+            <div id='sheet-3' title='Materiales' >
+				<div class='container-fluid '>
+<section class=''>
+<table cellspacing='0' cellpadding='0' style='border-spacing:0;' onkeydown='javascript:navigate(event);'>
+					<col width='64'/>
+					<col width='64'/>
+					<col width='64'/>
+					<col width='64'/>
+					<col width='64'/>
+					<col width='64'/>
+					<col width='64'/>
+					<col width='64'/>
+					<col width='64'/>
+					<col width='64'/>
+					<col width='64'/>
+					<col width='64'/>
+					<col width='64'/>
+					<col width='64'/>
+					<col width='64'/>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:23pt'>
+						<td class='ee100' style='height:23pt;'>&nbsp;</td>
+						<td class='ee103' style='height:23pt;' colspan = '14' rowspan = '3'>
+							4. Elige los materiales para tu
+  actividad.
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:23pt'>
+						<td class='ee100' style='height:23pt;'>&nbsp;</td>
+						<td class='ee103' style='height:23pt;'>&nbsp;</td>
+						<td class='ee103' style='height:23pt;'>&nbsp;</td>
+						<td class='ee103' style='height:23pt;'>&nbsp;</td>
+						<td class='ee103' style='height:23pt;'>&nbsp;</td>
+						<td class='ee109' style='height:23pt;' colspan = '3'>
+							PRESUPUESTO REAL
+						</td>
+						<td class='ee112' style='height:23pt;' colspan = '4'>
+						<input id='xlew_3_6_9' type='text' readonly='readonly' value='-' class='ee112' style='overflow:hidden; border:0px solid #000000; width:100% ' name='xlew_3_6_9' tabindex='-1' />
+						</td>
+						<td class='ee103' style='height:23pt;'>&nbsp;</td>
+						<td class='ee103' style='height:23pt;'>&nbsp;</td>
+						<td class='ee103' style='height:23pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:23pt'>
+						<td class='ee100' style='height:23pt;'>&nbsp;</td>
+						<td class='ee103' style='height:23pt;'>&nbsp;</td>
+						<td class='ee103' style='height:23pt;'>&nbsp;</td>
+						<td class='ee103' style='height:23pt;'>&nbsp;</td>
+						<td class='ee103' style='height:23pt;'>&nbsp;</td>
+						<td class='ee103' style='height:23pt;'>&nbsp;</td>
+						<td class='ee114' style='height:23pt;'>&nbsp;</td>
+						<td class='ee114' style='height:23pt;'>&nbsp;</td>
+						<td class='ee100' style='height:23pt;'>&nbsp;</td>
+						<td class='ee100' style='height:23pt;'>&nbsp;</td>
+						<td class='ee100' style='height:23pt;'>&nbsp;</td>
+						<td class='ee103' style='height:23pt;'>&nbsp;</td>
+						<td class='ee103' style='height:23pt;'>&nbsp;</td>
+						<td class='ee103' style='height:23pt;'>&nbsp;</td>
+						<td class='ee103' style='height:23pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:23pt'>
+						<td class='ee100' style='height:23pt;'>&nbsp;</td>
+						<td class='ee103' style='height:23pt;'>&nbsp;</td>
+						<td class='ee103' style='height:23pt;'>&nbsp;</td>
+						<td class='ee103' style='height:23pt;'>&nbsp;</td>
+						<td class='ee103' style='height:23pt;'>&nbsp;</td>
+						<td class='ee109' style='height:23pt;' colspan = '3'>
+							VENTA NP
+						</td>
+						<td class='ee112' style='height:23pt;' colspan = '4'>
+						<input id='xlew_3_8_9' type='text' readonly='readonly' value='-' class='ee112' style='overflow:hidden; border:0px solid #000000; width:100% ' name='xlew_3_8_9' tabindex='-1' />
+						</td>
+						<td class='ee103' style='height:23pt;'>&nbsp;</td>
+						<td class='ee103' style='height:23pt;'>&nbsp;</td>
+						<td class='ee103' style='height:23pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:23pt'>
+						<td class='ee100' style='height:23pt;'>&nbsp;</td>
+						<td class='ee103' style='height:23pt;'>&nbsp;</td>
+						<td class='ee103' style='height:23pt;'>&nbsp;</td>
+						<td class='ee103' style='height:23pt;'>&nbsp;</td>
+						<td class='ee103' style='height:23pt;'>&nbsp;</td>
+						<td class='ee103' style='height:23pt;'>&nbsp;</td>
+						<td class='ee103' style='height:23pt;'>&nbsp;</td>
+						<td class='ee103' style='height:23pt;'>&nbsp;</td>
+						<td class='ee103' style='height:23pt;'>&nbsp;</td>
+						<td class='ee103' style='height:23pt;'>&nbsp;</td>
+						<td class='ee103' style='height:23pt;'>&nbsp;</td>
+						<td class='ee103' style='height:23pt;'>&nbsp;</td>
+						<td class='ee103' style='height:23pt;'>&nbsp;</td>
+						<td class='ee103' style='height:23pt;'>&nbsp;</td>
+						<td class='ee103' style='height:23pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:47pt'>
+						<td class='ee100' style='height:47pt;'>&nbsp;</td>
+						<td class='ee100' style='height:47pt;'>&nbsp;</td>
+						<td class='ee117' style='height:47pt;' colspan = '2' rowspan = '7'>
+						<span>
+  <table cellpadding='0' cellspacing='0'>
+   <tr>
+    <td width='10' height='18'></td>
+   </tr>
+   <tr>
+    <td></td>
+    <td>
+							<img src='image002.png' width='118' height='167' alt='' />
+						</td>
+    <td width='0'></td>
+   </tr>
+   <tr>
+    <td height='5'></td>
+   </tr>
+  </table>
+  </span>
+						</td>
+						<td class='ee124' style='height:47pt;' colspan = '5'>
+							Electrostático
+						</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee119' style='height:47pt;'>&nbsp;</td>
+						<td class='ee127' style='height:47pt;'>&nbsp;</td>
+						<td class='ee119' style='height:47pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;' colspan = '3'>
+							<font class='ee132'>Medidas:</font><font class='ee133'> 60 cm x 90 cm.</font>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee134' style='height:15pt;' colspan = '3'>
+							Selecciona este material
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee136' style='height:15pt;'>&nbsp;</td>
+						<td class='ee139' style='height:15pt;' colspan = '8' rowspan = '3'>
+							Ventajas: <font class='ee133'>Muy fácil de aplicar y de retirar, adhiere a vidrios y es
+  traslúcido.</font><font class='ee132'><br />
+    Uso: </font><font class='ee133'>Como póster, para promociones y
+  temporalidades. Decorar.</font>
+						</td>
+						<td class='ee142' style='height:15pt;' colspan = '3'>
+                            <div data-panel='checkbox' id='panel-xlew_3_13_13' class='checkbox checkbox-primary'>
+							    <input id='xlew_3_13_13' type='checkbox' class='ee135' style=''  onclick="recalc_onclick('xlew_3_13_13')" name='xlew_3_13_13' tabindex='1' data-sheet='3' data-row='13' data-col='13'/>
+                                <label for='xlew_3_13_13'>&nbsp;</label>
+                            </div>
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee136' style='height:15pt;'>&nbsp;</td>
+						<td class='ee134' style='height:15pt;' colspan = '3'>
+							Cantidad para producción
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee142' style='height:15pt;' colspan = '3'>
+							 <div data-panel='slider' id = 'panel-xlew_3_15_13'><input id='xlew_3_15_13' name='xlew_3_15_13' type='text' value=0 class='span2 yes-print'  data-slider-selection='after' data-slider-tooltip='show' data-widgettype='slider' /></div>
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee143' style='height:15pt;' colspan = '2'>
+							Costo de diseño:<span> </span>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee146' style='height:15pt;'>
+							<input id='XLEW_3_16_8' type='text' value='3,550' class='ee131' style='width:100%' onchange="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),0);recalc_onclick('XLEW_3_16_8')" name='XLEW_3_16_8' placeholder='' tabindex='3' data-sheet='3' data-row='16' data-col='8'/>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;' colspan = '3'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:21pt'>
+						<td class='ee100' style='height:21pt;'>&nbsp;</td>
+						<td class='ee100' style='height:21pt;'>&nbsp;</td>
+						<td class='ee143' style='height:21pt;' colspan = '3'>
+							Costo de producción:
+						</td>
+						<td class='ee146' style='height:21pt;'>
+							<input id='XLEW_3_17_8' type='text' value='605' class='ee131' style='width:100%' onchange="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),0);recalc_onclick('XLEW_3_17_8')" name='XLEW_3_17_8' placeholder='' tabindex='4' data-sheet='3' data-row='17' data-col='8'/>
+						</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee147' style='height:21pt;'>
+							<input id='xlew_3_17_11' type='text' value='' class='ee149' style='width:100%' onchange="this.value=eedisplayFloat(eeparseFloat(this.value));recalc_onclick('xlew_3_17_11')" name='xlew_3_17_11' placeholder='' tabindex='5' data-sheet='3' data-row='17' data-col='11'/>
+						</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee150' style='height:21pt;' colspan = '3'>
+						<input id='xlew_3_17_13' type='text' readonly='readonly' value='-' class='ee150' style='overflow:hidden; border:0px solid #000000; width:100% ' name='xlew_3_17_13' tabindex='-1' />
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee153' style='height:15pt;' colspan = '3'>
+						<input id='xlew_3_18_13' type='text' readonly='readonly' value='' class='ee153' style='overflow:hidden; border:0px solid #000000; width:100% ' name='xlew_3_18_13' tabindex='-1' />
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:47pt'>
+						<td class='ee100' style='height:47pt;'>&nbsp;</td>
+						<td class='ee100' style='height:47pt;'>&nbsp;</td>
+						<td class='ee117' style='height:47pt;' colspan = '2' rowspan = '6'>
+						<span>
+  <table cellpadding='0' cellspacing='0'>
+   <tr>
+    <td width='9' height='36'></td>
+   </tr>
+   <tr>
+    <td></td>
+    <td>
+							<img src='image004.png' width='116' height='116' alt='' />
+						</td>
+    <td width='3'></td>
+   </tr>
+   <tr>
+    <td height='10'></td>
+   </tr>
+  </table>
+  </span>
+						</td>
+						<td class='ee124' style='height:47pt;' colspan = '4'>
+							Portavasos
+						</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee119' style='height:47pt;'>&nbsp;</td>
+						<td class='ee127' style='height:47pt;'>&nbsp;</td>
+						<td class='ee119' style='height:47pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;' colspan = '3'>
+							<font class='ee132'>Medidas:</font><font class='ee133'> 8 cm x 8 cm.</font>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee134' style='height:15pt;' colspan = '3'>
+							Selecciona este material
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee154' style='height:15pt;' colspan = '8' rowspan = '3'>
+							<font class='ee132'>Ventajas:</font><font class='ee133'> Visibilidad en el momento
+  del consumo. El comensal puede jugar con él.<br />
+    </font><font class='ee132'>Uso: </font><font class='ee133'>Para aumentar el
+  ticket de venta, impulso, presencia de marca.<br />
+    </font>
+						</td>
+						<td class='ee142' style='height:15pt;' colspan = '3'>
+                            <div data-panel='checkbox' id='panel-xlew_3_23_13' class='checkbox checkbox-primary'>
+							    <input id='xlew_3_23_13' type='checkbox' class='ee135' style=''  onclick="recalc_onclick('xlew_3_23_13')" name='xlew_3_23_13' tabindex='6' data-sheet='3' data-row='23' data-col='13'/>
+                                <label for='xlew_3_23_13'>&nbsp;</label>
+                            </div>
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee134' style='height:15pt;' colspan = '3'>
+							Cantidad para producción
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee142' style='height:15pt;' colspan = '3'>
+							 <div data-panel='slider' id = 'panel-xlew_3_25_13'><input id='xlew_3_25_13' name='xlew_3_25_13' type='text' value=0 class='span2 yes-print'  data-slider-selection='after' data-slider-tooltip='show' data-widgettype='slider' /></div>
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee143' style='height:15pt;' colspan = '2'>
+							Costo de diseño:<span> </span>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee146' style='height:15pt;'>
+							<input id='XLEW_3_26_8' type='text' value='1,250' class='ee131' style='width:100%' onchange="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),0);recalc_onclick('XLEW_3_26_8')" name='XLEW_3_26_8' placeholder='' tabindex='8' data-sheet='3' data-row='26' data-col='8'/>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;' colspan = '3'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:21pt'>
+						<td class='ee100' style='height:21pt;'>&nbsp;</td>
+						<td class='ee100' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee143' style='height:21pt;' colspan = '3'>
+							Costo de producción:
+						</td>
+						<td class='ee146' style='height:21pt;'>
+							<input id='XLEW_3_27_8' type='text' value='10' class='ee131' style='width:100%' onchange="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),0);recalc_onclick('XLEW_3_27_8')" name='XLEW_3_27_8' placeholder='' tabindex='9' data-sheet='3' data-row='27' data-col='8'/>
+						</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee150' style='height:21pt;' colspan = '3'>
+						<input id='xlew_3_27_13' type='text' readonly='readonly' value='-' class='ee150' style='overflow:hidden; border:0px solid #000000; width:100% ' name='xlew_3_27_13' tabindex='-1' />
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee153' style='height:15pt;' colspan = '3'>
+						<input id='xlew_3_28_13' type='text' readonly='readonly' value='' class='ee153' style='overflow:hidden; border:0px solid #000000; width:100% ' name='xlew_3_28_13' tabindex='-1' />
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:47pt'>
+						<td class='ee100' style='height:47pt;'>&nbsp;</td>
+						<td class='ee100' style='height:47pt;'>&nbsp;</td>
+						<td class='ee117' style='height:47pt;' colspan = '2' rowspan = '7'>
+						<span>
+  <table cellpadding='0' cellspacing='0'>
+   <tr>
+    <td width='4' height='42'></td>
+   </tr>
+   <tr>
+    <td></td>
+    <td>
+							<img src='image006.png' width='123' height='123' alt='' />
+						</td>
+    <td width='1'></td>
+   </tr>
+   <tr>
+    <td height='25'></td>
+   </tr>
+  </table>
+  </span>
+						</td>
+						<td class='ee124' style='height:47pt;' colspan = '4'>
+							Manteleta
+						</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee119' style='height:47pt;'>&nbsp;</td>
+						<td class='ee127' style='height:47pt;'>&nbsp;</td>
+						<td class='ee119' style='height:47pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;' colspan = '3'>
+							<font class='ee132'>Medidas:</font><font class='ee133'> 40 cm x 25 cm.<span> </span></font>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee134' style='height:15pt;' colspan = '3'>
+							Selecciona este material
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee154' style='height:15pt;' colspan = '8' rowspan = '3'>
+							<font class='ee132'>Ventajas: </font><font class='ee133'>Visibilidad en el momento
+  de consumo. Se puede jugar en ella.<br />
+    </font><font class='ee132'>Uso:</font><font class='ee133'> Para aumentar el
+  ticket de venta, presencia de marca, promociones, venta cruzada.<br />
+    </font>
+						</td>
+						<td class='ee142' style='height:15pt;' colspan = '3'>
+                            <div data-panel='checkbox' id='panel-xlew_3_33_13' class='checkbox checkbox-primary'>
+							    <input id='xlew_3_33_13' type='checkbox' class='ee135' style=''  onclick="recalc_onclick('xlew_3_33_13')" name='xlew_3_33_13' tabindex='10' data-sheet='3' data-row='33' data-col='13'/>
+                                <label for='xlew_3_33_13'>&nbsp;</label>
+                            </div>
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee134' style='height:15pt;' colspan = '3'>
+							Cantidad para producción
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee142' style='height:15pt;' colspan = '3'>
+							 <div data-panel='slider' id = 'panel-xlew_3_35_13'><input id='xlew_3_35_13' name='xlew_3_35_13' type='text' value=0 class='span2 yes-print'  data-slider-selection='after' data-slider-tooltip='show' data-widgettype='slider' /></div>
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee143' style='height:15pt;' colspan = '2'>
+							Costo de diseño:<span> </span>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee146' style='height:15pt;'>
+							<input id='XLEW_3_36_8' type='text' value='1,950' class='ee131' style='width:100%' onchange="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),0);recalc_onclick('XLEW_3_36_8')" name='XLEW_3_36_8' placeholder='' tabindex='12' data-sheet='3' data-row='36' data-col='8'/>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;' colspan = '3'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:21pt'>
+						<td class='ee100' style='height:21pt;'>&nbsp;</td>
+						<td class='ee100' style='height:21pt;'>&nbsp;</td>
+						<td class='ee143' style='height:21pt;' colspan = '3'>
+							Costo de producción:
+						</td>
+						<td class='ee146' style='height:21pt;'>
+							<input id='XLEW_3_37_8' type='text' value='2' class='ee131' style='width:100%' onchange="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),0);recalc_onclick('XLEW_3_37_8')" name='XLEW_3_37_8' placeholder='' tabindex='13' data-sheet='3' data-row='37' data-col='8'/>
+						</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee150' style='height:21pt;' colspan = '3'>
+						<input id='xlew_3_37_13' type='text' readonly='readonly' value='-' class='ee150' style='overflow:hidden; border:0px solid #000000; width:100% ' name='xlew_3_37_13' tabindex='-1' />
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee153' style='height:15pt;' colspan = '3'>
+						<input id='xlew_3_38_13' type='text' readonly='readonly' value='' class='ee153' style='overflow:hidden; border:0px solid #000000; width:100% ' name='xlew_3_38_13' tabindex='-1' />
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:47pt'>
+						<td class='ee100' style='height:47pt;'>&nbsp;</td>
+						<td class='ee100' style='height:47pt;'>&nbsp;</td>
+						<td class='ee117' style='height:47pt;' colspan = '2' rowspan = '6'>
+						<span>
+  <table cellpadding='0' cellspacing='0'>
+   <tr>
+    <td width='15' height='41'></td>
+   </tr>
+   <tr>
+    <td></td>
+    <td>
+							<img src='image008.png' width='109' height='110' alt='' />
+						</td>
+    <td width='4'></td>
+   </tr>
+   <tr>
+    <td height='11'></td>
+   </tr>
+  </table>
+  </span>
+						</td>
+						<td class='ee124' style='height:47pt;' colspan = '7'>
+							Sticker esquina mesa
+						</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee119' style='height:47pt;'>&nbsp;</td>
+						<td class='ee127' style='height:47pt;'>&nbsp;</td>
+						<td class='ee119' style='height:47pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;' colspan = '3'>
+							<font class='ee132'>Medidas:</font><font class='ee133'> 10 cm x 10 cm.</font>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee134' style='height:15pt;' colspan = '3'>
+							Selecciona este material
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee154' style='height:15pt;' colspan = '8' rowspan = '3'>
+							<font class='ee132'>Ventajas: </font><font class='ee133'>Visibilidad en el momento
+  de consumo. Fácil de colocar.<br />
+    </font><font class='ee132'>Uso: </font><font class='ee133'>Para aumentar el
+  ticket de venta, presencia de marca, promociones, venta cruzada.</font>
+						</td>
+						<td class='ee142' style='height:15pt;' colspan = '3'>
+                            <div data-panel='checkbox' id='panel-xlew_3_43_13' class='checkbox checkbox-primary'>
+							    <input id='xlew_3_43_13' type='checkbox' class='ee135' style=''  onclick="recalc_onclick('xlew_3_43_13')" name='xlew_3_43_13' tabindex='14' data-sheet='3' data-row='43' data-col='13'/>
+                                <label for='xlew_3_43_13'>&nbsp;</label>
+                            </div>
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee134' style='height:15pt;' colspan = '3'>
+							Cantidad para producción
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee142' style='height:15pt;' colspan = '3'>
+							 <div data-panel='slider' id = 'panel-xlew_3_45_13'><input id='xlew_3_45_13' name='xlew_3_45_13' type='text' value=0 class='span2 yes-print'  data-slider-selection='after' data-slider-tooltip='show' data-widgettype='slider' /></div>
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee143' style='height:15pt;' colspan = '2'>
+							Costo de diseño:<span> </span>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee146' style='height:15pt;'>
+							<input id='XLEW_3_46_8' type='text' value='1,250' class='ee131' style='width:100%' onchange="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),0);recalc_onclick('XLEW_3_46_8')" name='XLEW_3_46_8' placeholder='' tabindex='16' data-sheet='3' data-row='46' data-col='8'/>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;' colspan = '3'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:21pt'>
+						<td class='ee100' style='height:21pt;'>&nbsp;</td>
+						<td class='ee100' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee143' style='height:21pt;' colspan = '3'>
+							Costo de producción:
+						</td>
+						<td class='ee146' style='height:21pt;'>
+							<input id='XLEW_3_47_8' type='text' value='20' class='ee131' style='width:100%' onchange="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),0);recalc_onclick('XLEW_3_47_8')" name='XLEW_3_47_8' placeholder='' tabindex='17' data-sheet='3' data-row='47' data-col='8'/>
+						</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee150' style='height:21pt;' colspan = '3'>
+						<input id='xlew_3_47_13' type='text' readonly='readonly' value='-' class='ee150' style='overflow:hidden; border:0px solid #000000; width:100% ' name='xlew_3_47_13' tabindex='-1' />
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee153' style='height:15pt;' colspan = '3'>
+						<input id='xlew_3_48_13' type='text' readonly='readonly' value='' class='ee153' style='overflow:hidden; border:0px solid #000000; width:100% ' name='xlew_3_48_13' tabindex='-1' />
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:47pt'>
+						<td class='ee100' style='height:47pt;'>&nbsp;</td>
+						<td class='ee100' style='height:47pt;'>&nbsp;</td>
+						<td class='ee117' style='height:47pt;' colspan = '2' rowspan = '6'>
+						<span>
+  <table cellpadding='0' cellspacing='0'>
+   <tr>
+    <td width='10' height='42'></td>
+   </tr>
+   <tr>
+    <td></td>
+    <td>
+							<img src='image010.png' width='118' height='119' alt='' />
+						</td>
+    <td width='0'></td>
+   </tr>
+   <tr>
+    <td height='1'></td>
+   </tr>
+  </table>
+  </span>
+						</td>
+						<td class='ee124' style='height:47pt;' colspan = '4'>
+							Tent Card
+						</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee119' style='height:47pt;'>&nbsp;</td>
+						<td class='ee127' style='height:47pt;'>&nbsp;</td>
+						<td class='ee119' style='height:47pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;' colspan = '3'>
+							<font class='ee132'>Medidas:</font><font class='ee133'> 20 cm x 15 cm.</font>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee134' style='height:15pt;' colspan = '3'>
+							Selecciona este material
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee139' style='height:15pt;' colspan = '8' rowspan = '3'>
+							Ventajas: <font class='ee133'>Visibilidad en el momento de consumo. Fácil de colocar.</font><font class='ee132'><br />
+    Uso: </font><font class='ee133'><span> </span>Para
+  aumentar el ticket de venta, promociones y nuevos platillos.</font>
+						</td>
+						<td class='ee142' style='height:15pt;' colspan = '3'>
+                            <div data-panel='checkbox' id='panel-xlew_3_53_13' class='checkbox checkbox-primary'>
+							    <input id='xlew_3_53_13' type='checkbox' class='ee135' style=''  onclick="recalc_onclick('xlew_3_53_13')" name='xlew_3_53_13' tabindex='18' data-sheet='3' data-row='53' data-col='13'/>
+                                <label for='xlew_3_53_13'>&nbsp;</label>
+                            </div>
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee134' style='height:15pt;' colspan = '3'>
+							Cantidad para producción
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee142' style='height:15pt;' colspan = '3'>
+							 <div data-panel='slider' id = 'panel-xlew_3_55_13'><input id='xlew_3_55_13' name='xlew_3_55_13' type='text' value=0 class='span2 yes-print'  data-slider-selection='after' data-slider-tooltip='show' data-widgettype='slider' /></div>
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee143' style='height:15pt;' colspan = '2'>
+							Costo de diseño:<span> </span>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee146' style='height:15pt;'>
+							<input id='XLEW_3_56_8' type='text' value='2,450' class='ee131' style='width:100%' onchange="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),0);recalc_onclick('XLEW_3_56_8')" name='XLEW_3_56_8' placeholder='' tabindex='20' data-sheet='3' data-row='56' data-col='8'/>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;' colspan = '3'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:21pt'>
+						<td class='ee100' style='height:21pt;'>&nbsp;</td>
+						<td class='ee100' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee143' style='height:21pt;' colspan = '3'>
+							Costo de producción:
+						</td>
+						<td class='ee146' style='height:21pt;'>
+							<input id='XLEW_3_57_8' type='text' value='20' class='ee131' style='width:100%' onchange="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),0);recalc_onclick('XLEW_3_57_8')" name='XLEW_3_57_8' placeholder='' tabindex='21' data-sheet='3' data-row='57' data-col='8'/>
+						</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee150' style='height:21pt;' colspan = '3'>
+						<input id='xlew_3_57_13' type='text' readonly='readonly' value='-' class='ee150' style='overflow:hidden; border:0px solid #000000; width:100% ' name='xlew_3_57_13' tabindex='-1' />
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee153' style='height:15pt;' colspan = '3'>
+						<input id='xlew_3_58_13' type='text' readonly='readonly' value='' class='ee153' style='overflow:hidden; border:0px solid #000000; width:100% ' name='xlew_3_58_13' tabindex='-1' />
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:47pt'>
+						<td class='ee100' style='height:47pt;'>&nbsp;</td>
+						<td class='ee100' style='height:47pt;'>&nbsp;</td>
+						<td class='ee157' style='height:47pt;vertical-align:top;'>
+						<span style='
+  position:absolute;z-index:6;margin-left:5px;margin-top:38px;width:124px;
+  height:124px'>
+							<img src='image012.png' width='124' height='124' alt='' />
+						</span>
+						</td>
+						<td class='ee117' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;' colspan = '4'>
+							Menú/Carta
+						</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee119' style='height:47pt;'>&nbsp;</td>
+						<td class='ee127' style='height:47pt;'>&nbsp;</td>
+						<td class='ee119' style='height:47pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;' colspan = '4'>
+							<font class='ee132'>Medidas:</font><font class='ee133'> Final 21.5 cm x 28 cm.</font>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee134' style='height:15pt;' colspan = '3'>
+							Selecciona este material
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee154' style='height:15pt;' colspan = '8' rowspan = '3'>
+							<font class='ee132'>Ventajas:</font><font class='ee133'> El comensal casi
+  forzosamente lo va a consultar.<br />
+    </font><font class='ee132'>Uso: </font><font class='ee133'>Para impulsar
+  platillos y promociones.<br />
+    </font>
+						</td>
+						<td class='ee142' style='height:15pt;' colspan = '3'>
+                            <div data-panel='checkbox' id='panel-xlew_3_63_13' class='checkbox checkbox-primary'>
+							    <input id='xlew_3_63_13' type='checkbox' class='ee135' style=''  onclick="recalc_onclick('xlew_3_63_13')" name='xlew_3_63_13' tabindex='22' data-sheet='3' data-row='63' data-col='13'/>
+                                <label for='xlew_3_63_13'>&nbsp;</label>
+                            </div>
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee134' style='height:15pt;' colspan = '3'>
+							Cantidad para producción
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee142' style='height:15pt;' colspan = '3'>
+							 <div data-panel='slider' id = 'panel-xlew_3_65_13'><input id='xlew_3_65_13' name='xlew_3_65_13' type='text' value=0 class='span2 yes-print'  data-slider-selection='after' data-slider-tooltip='show' data-widgettype='slider' /></div>
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee143' style='height:15pt;' colspan = '2'>
+							Costo de diseño:<span> </span>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee146' style='height:15pt;'>
+							<input id='XLEW_3_66_8' type='text' value='2,450' class='ee131' style='width:100%' onchange="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),0);recalc_onclick('XLEW_3_66_8')" name='XLEW_3_66_8' placeholder='' tabindex='24' data-sheet='3' data-row='66' data-col='8'/>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;' colspan = '3'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:21pt'>
+						<td class='ee100' style='height:21pt;'>&nbsp;</td>
+						<td class='ee100' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee143' style='height:21pt;' colspan = '3'>
+							Costo de producción:
+						</td>
+						<td class='ee146' style='height:21pt;'>
+							<input id='XLEW_3_67_8' type='text' value='750' class='ee131' style='width:100%' onchange="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),0);recalc_onclick('XLEW_3_67_8')" name='XLEW_3_67_8' placeholder='' tabindex='25' data-sheet='3' data-row='67' data-col='8'/>
+						</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee150' style='height:21pt;' colspan = '3'>
+						<input id='xlew_3_67_13' type='text' readonly='readonly' value='-' class='ee150' style='overflow:hidden; border:0px solid #000000; width:100% ' name='xlew_3_67_13' tabindex='-1' />
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee153' style='height:15pt;' colspan = '3'>
+						<input id='xlew_3_68_13' type='text' readonly='readonly' value='' class='ee153' style='overflow:hidden; border:0px solid #000000; width:100% ' name='xlew_3_68_13' tabindex='-1' />
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:47pt'>
+						<td class='ee100' style='height:47pt;'>&nbsp;</td>
+						<td class='ee100' style='height:47pt;'>&nbsp;</td>
+						<td class='ee117' style='height:47pt;' colspan = '2' rowspan = '7'>
+						<span>
+  <table cellpadding='0' cellspacing='0'>
+   <tr>
+    <td width='4' height='43'></td>
+   </tr>
+   <tr>
+    <td></td>
+    <td>
+							<img src='image014.png' width='123' height='123' alt='' />
+						</td>
+    <td width='1'></td>
+   </tr>
+   <tr>
+    <td height='24'></td>
+   </tr>
+  </table>
+  </span>
+						</td>
+						<td class='ee124' style='height:47pt;' colspan = '3'>
+							Slides TV
+						</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee119' style='height:47pt;'>&nbsp;</td>
+						<td class='ee127' style='height:47pt;'>&nbsp;</td>
+						<td class='ee119' style='height:47pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;' colspan = '3'>
+							<font class='ee132'>Medidas:</font><font class='ee133'> 1024 px x 768 px.</font>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee134' style='height:15pt;' colspan = '3'>
+							Selecciona este material
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee154' style='height:15pt;' colspan = '8' rowspan = '3'>
+							<font class='ee132'>Ventajas: </font><font class='ee133'>Buena visibilidad,
+  atractivas y capturan la mirada.<br />
+    </font><font class='ee132'>Uso:</font><font class='ee133'> Para
+  promociones, mensajes a los comensales, promoción de eventos y platillos así
+  como servicios como catering.<br />
+    </font>
+						</td>
+						<td class='ee142' style='height:15pt;' colspan = '3'>
+                            <div data-panel='checkbox' id='panel-xlew_3_73_13' class='checkbox checkbox-primary'>
+							    <input id='xlew_3_73_13' type='checkbox' class='ee135' style=''  onclick="recalc_onclick('xlew_3_73_13')" name='xlew_3_73_13' tabindex='26' data-sheet='3' data-row='73' data-col='13'/>
+                                <label for='xlew_3_73_13'>&nbsp;</label>
+                            </div>
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee134' style='height:15pt;' colspan = '3'>
+							Cantidad para producción
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee142' style='height:15pt;' colspan = '3'>
+							 <div data-panel='slider' id = 'panel-xlew_3_75_13'><input id='xlew_3_75_13' name='xlew_3_75_13' type='text' value=0 class='span2 yes-print'  data-slider-selection='after' data-slider-tooltip='show' data-widgettype='slider' /></div>
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee143' style='height:15pt;' colspan = '2'>
+							Costo de diseño:<span> </span>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee146' style='height:15pt;'>
+							<input id='XLEW_3_76_8' type='text' value='3,550' class='ee131' style='width:100%' onchange="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),0);recalc_onclick('XLEW_3_76_8')" name='XLEW_3_76_8' placeholder='' tabindex='28' data-sheet='3' data-row='76' data-col='8'/>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;' colspan = '3'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:21pt'>
+						<td class='ee100' style='height:21pt;'>&nbsp;</td>
+						<td class='ee100' style='height:21pt;'>&nbsp;</td>
+						<td class='ee143' style='height:21pt;' colspan = '3'>
+							Costo de producción:
+						</td>
+						<td class='ee146' style='height:21pt;'>
+							<input id='XLEW_3_77_8' type='text' value='50' class='ee131' style='width:100%' onchange="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),0);recalc_onclick('XLEW_3_77_8')" name='XLEW_3_77_8' placeholder='' tabindex='29' data-sheet='3' data-row='77' data-col='8'/>
+						</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee150' style='height:21pt;' colspan = '3'>
+						<input id='xlew_3_77_13' type='text' readonly='readonly' value='-' class='ee150' style='overflow:hidden; border:0px solid #000000; width:100% ' name='xlew_3_77_13' tabindex='-1' />
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee153' style='height:15pt;' colspan = '3'>
+						<input id='xlew_3_78_13' type='text' readonly='readonly' value='' class='ee153' style='overflow:hidden; border:0px solid #000000; width:100% ' name='xlew_3_78_13' tabindex='-1' />
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:47pt'>
+						<td class='ee100' style='height:47pt;'>&nbsp;</td>
+						<td class='ee100' style='height:47pt;'>&nbsp;</td>
+						<td class='ee117' style='height:47pt;' colspan = '2' rowspan = '5'>
+						<span>
+  <table cellpadding='0' cellspacing='0'>
+   <tr>
+    <td width='14' height='53'></td>
+   </tr>
+   <tr>
+    <td></td>
+    <td>
+							<img src='image016.png' width='111' height='76' alt='' />
+						</td>
+    <td width='3'></td>
+   </tr>
+   <tr>
+    <td height='13'></td>
+   </tr>
+  </table>
+  </span>
+						</td>
+						<td class='ee124' style='height:47pt;' colspan = '4'>
+							Menú Board
+						</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee119' style='height:47pt;'>&nbsp;</td>
+						<td class='ee127' style='height:47pt;'>&nbsp;</td>
+						<td class='ee119' style='height:47pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;' colspan = '3'>
+							<font class='ee132'>Medidas:</font><font class='ee133'> 90 cm x 60 cm.</font>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee134' style='height:15pt;' colspan = '3'>
+							Selecciona este material
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee154' style='height:15pt;' colspan = '8' rowspan = '3'>
+							<font class='ee132'>Ventajas: </font><font class='ee133'>Vista indispensable en
+  establecimientos donde se ordena en mostrador.<br />
+    </font><font class='ee132'>Uso: </font><font class='ee133'>Promociones,
+  impulso de platillos, presencia de marca.</font>
+						</td>
+						<td class='ee142' style='height:15pt;' colspan = '3'>
+                            <div data-panel='checkbox' id='panel-xlew_3_83_13' class='checkbox checkbox-primary'>
+							    <input id='xlew_3_83_13' type='checkbox' class='ee135' style=''  onclick="recalc_onclick('xlew_3_83_13')" name='xlew_3_83_13' tabindex='30' data-sheet='3' data-row='83' data-col='13'/>
+                                <label for='xlew_3_83_13'>&nbsp;</label>
+                            </div>
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee134' style='height:15pt;' colspan = '3'>
+							Cantidad para producción
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee142' style='height:15pt;' colspan = '3'>
+							 <div data-panel='slider' id = 'panel-xlew_3_85_13'><input id='xlew_3_85_13' name='xlew_3_85_13' type='text' value=0 class='span2 yes-print'  data-slider-selection='after' data-slider-tooltip='show' data-widgettype='slider' /></div>
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee143' style='height:15pt;' colspan = '2'>
+							Costo de diseño:<span> </span>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee146' style='height:15pt;'>
+							<input id='XLEW_3_86_8' type='text' value='4,160' class='ee131' style='width:100%' onchange="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),0);recalc_onclick('XLEW_3_86_8')" name='XLEW_3_86_8' placeholder='' tabindex='32' data-sheet='3' data-row='86' data-col='8'/>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;' colspan = '3'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:21pt'>
+						<td class='ee100' style='height:21pt;'>&nbsp;</td>
+						<td class='ee100' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee143' style='height:21pt;' colspan = '3'>
+							Costo de producción:
+						</td>
+						<td class='ee146' style='height:21pt;'>
+							<input id='XLEW_3_87_8' type='text' value='1,200' class='ee131' style='width:100%' onchange="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),0);recalc_onclick('XLEW_3_87_8')" name='XLEW_3_87_8' placeholder='' tabindex='33' data-sheet='3' data-row='87' data-col='8'/>
+						</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee150' style='height:21pt;' colspan = '3'>
+						<input id='xlew_3_87_13' type='text' readonly='readonly' value='-' class='ee150' style='overflow:hidden; border:0px solid #000000; width:100% ' name='xlew_3_87_13' tabindex='-1' />
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee153' style='height:15pt;' colspan = '3'>
+						<input id='xlew_3_88_13' type='text' readonly='readonly' value='' class='ee153' style='overflow:hidden; border:0px solid #000000; width:100% ' name='xlew_3_88_13' tabindex='-1' />
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:47pt'>
+						<td class='ee100' style='height:47pt;'>&nbsp;</td>
+						<td class='ee100' style='height:47pt;'>&nbsp;</td>
+						<td class='ee117' style='height:47pt;' colspan = '2' rowspan = '7'>
+						<span>
+  <table cellpadding='0' cellspacing='0'>
+   <tr>
+    <td width='16' height='5'></td>
+   </tr>
+   <tr>
+    <td></td>
+    <td>
+							<img src='image018.png' width='106' height='173' alt='' />
+						</td>
+    <td width='6'></td>
+   </tr>
+   <tr>
+    <td height='12'></td>
+   </tr>
+  </table>
+  </span>
+						</td>
+						<td class='ee124' style='height:47pt;' colspan = '5'>
+							Floor Graphic
+						</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee119' style='height:47pt;'>&nbsp;</td>
+						<td class='ee127' style='height:47pt;'>&nbsp;</td>
+						<td class='ee119' style='height:47pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;' colspan = '3'>
+							<font class='ee132'>Medidas:</font><font class='ee133'> 25 cm x 25 cm.</font>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee134' style='height:15pt;' colspan = '3'>
+							Selecciona este material
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee154' style='height:15pt;' colspan = '8' rowspan = '3'>
+							<font class='ee132'>Ventajas: </font><font class='ee133'>Buena visibilidad.<br />
+    </font><font class='ee132'>Uso: </font><font class='ee133'>Dirigir tráfico,
+  promociones.</font>
+						</td>
+						<td class='ee142' style='height:15pt;' colspan = '3'>
+                            <div data-panel='checkbox' id='panel-xlew_3_93_13' class='checkbox checkbox-primary'>
+							    <input id='xlew_3_93_13' type='checkbox' class='ee135' style=''  onclick="recalc_onclick('xlew_3_93_13')" name='xlew_3_93_13' tabindex='34' data-sheet='3' data-row='93' data-col='13'/>
+                                <label for='xlew_3_93_13'>&nbsp;</label>
+                            </div>
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee134' style='height:15pt;' colspan = '3'>
+							Cantidad para producción
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee142' style='height:15pt;' colspan = '3'>
+							 <div data-panel='slider' id = 'panel-xlew_3_95_13'><input id='xlew_3_95_13' name='xlew_3_95_13' type='text' value=0 class='span2 yes-print'  data-slider-selection='after' data-slider-tooltip='show' data-widgettype='slider' /></div>
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee143' style='height:15pt;' colspan = '2'>
+							Costo de diseño:<span> </span>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee146' style='height:15pt;'>
+							<input id='XLEW_3_96_8' type='text' value='1,250' class='ee131' style='width:100%' onchange="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),0);recalc_onclick('XLEW_3_96_8')" name='XLEW_3_96_8' placeholder='' tabindex='36' data-sheet='3' data-row='96' data-col='8'/>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;' colspan = '3'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:21pt'>
+						<td class='ee100' style='height:21pt;'>&nbsp;</td>
+						<td class='ee100' style='height:21pt;'>&nbsp;</td>
+						<td class='ee143' style='height:21pt;' colspan = '3'>
+							Costo de producción:
+						</td>
+						<td class='ee146' style='height:21pt;'>
+							<input id='XLEW_3_97_8' type='text' value='250' class='ee131' style='width:100%' onchange="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),0);recalc_onclick('XLEW_3_97_8')" name='XLEW_3_97_8' placeholder='' tabindex='37' data-sheet='3' data-row='97' data-col='8'/>
+						</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee150' style='height:21pt;' colspan = '3'>
+						<input id='xlew_3_97_13' type='text' readonly='readonly' value='-' class='ee150' style='overflow:hidden; border:0px solid #000000; width:100% ' name='xlew_3_97_13' tabindex='-1' />
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee153' style='height:15pt;' colspan = '3'>
+						<input id='xlew_3_98_13' type='text' readonly='readonly' value='' class='ee153' style='overflow:hidden; border:0px solid #000000; width:100% ' name='xlew_3_98_13' tabindex='-1' />
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:47pt'>
+						<td class='ee100' style='height:47pt;'>&nbsp;</td>
+						<td class='ee100' style='height:47pt;'>&nbsp;</td>
+						<td class='ee117' style='height:47pt;' colspan = '2' rowspan = '7'>
+						<span>
+  <table cellpadding='0' cellspacing='0'>
+   <tr>
+    <td width='35' height='6'></td>
+   </tr>
+   <tr>
+    <td></td>
+    <td>
+							<img src='image020.png' width='66' height='183' alt='' />
+						</td>
+    <td width='27'></td>
+   </tr>
+   <tr>
+    <td height='1'></td>
+   </tr>
+  </table>
+  </span>
+						</td>
+						<td class='ee124' style='height:47pt;' colspan = '4'>
+							X-Banner
+						</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee119' style='height:47pt;'>&nbsp;</td>
+						<td class='ee127' style='height:47pt;'>&nbsp;</td>
+						<td class='ee119' style='height:47pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;' colspan = '5'>
+							<font class='ee132'>Medidas:</font><font class='ee133'> 80 cm x 180 cm con estructura metálica.</font>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee134' style='height:15pt;' colspan = '3'>
+							Selecciona este material
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee139' style='height:15pt;' colspan = '8' rowspan = '3'>
+							Ventajas: <font class='ee133'>Se desarma y arma fácilmente ocupando poco espacio para
+  transportar y muy ligero.</font><font class='ee132'><br />
+    Uso: </font><font class='ee133'>Para interrumpir y dirigir trayecto,
+  señalar localización y como póster.</font>
+						</td>
+						<td class='ee142' style='height:15pt;' colspan = '3'>
+                            <div data-panel='checkbox' id='panel-xlew_3_103_13' class='checkbox checkbox-primary'>
+							    <input id='xlew_3_103_13' type='checkbox' class='ee135' style=''  onclick="recalc_onclick('xlew_3_103_13')" name='xlew_3_103_13' tabindex='38' data-sheet='3' data-row='103' data-col='13'/>
+                                <label for='xlew_3_103_13'>&nbsp;</label>
+                            </div>
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee134' style='height:15pt;' colspan = '3'>
+							Cantidad para producción
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee142' style='height:15pt;' colspan = '3'>
+							 <div data-panel='slider' id = 'panel-xlew_3_105_13'><input id='xlew_3_105_13' name='xlew_3_105_13' type='text' value=0 class='span2 yes-print'  data-slider-selection='after' data-slider-tooltip='show' data-widgettype='slider' /></div>
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee143' style='height:15pt;' colspan = '2'>
+							Costo de diseño:<span> </span>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee146' style='height:15pt;'>
+							<input id='XLEW_3_106_8' type='text' value='2,500' class='ee131' style='width:100%' onchange="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),0);recalc_onclick('XLEW_3_106_8')" name='XLEW_3_106_8' placeholder='' tabindex='40' data-sheet='3' data-row='106' data-col='8'/>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;' colspan = '3'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:21pt'>
+						<td class='ee100' style='height:21pt;'>&nbsp;</td>
+						<td class='ee100' style='height:21pt;'>&nbsp;</td>
+						<td class='ee143' style='height:21pt;' colspan = '3'>
+							Costo de producción:
+						</td>
+						<td class='ee146' style='height:21pt;'>
+							<input id='XLEW_3_107_8' type='text' value='605' class='ee131' style='width:100%' onchange="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),0);recalc_onclick('XLEW_3_107_8')" name='XLEW_3_107_8' placeholder='' tabindex='41' data-sheet='3' data-row='107' data-col='8'/>
+						</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee150' style='height:21pt;' colspan = '3'>
+						<input id='xlew_3_107_13' type='text' readonly='readonly' value='-' class='ee150' style='overflow:hidden; border:0px solid #000000; width:100% ' name='xlew_3_107_13' tabindex='-1' />
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee153' style='height:15pt;' colspan = '3'>
+						<input id='xlew_3_108_13' type='text' readonly='readonly' value='' class='ee153' style='overflow:hidden; border:0px solid #000000; width:100% ' name='xlew_3_108_13' tabindex='-1' />
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:47pt'>
+						<td class='ee100' style='height:47pt;'>&nbsp;</td>
+						<td class='ee100' style='height:47pt;'>&nbsp;</td>
+						<td class='ee117' style='height:47pt;' colspan = '2' rowspan = '5'>
+						<span>
+  <table cellpadding='0' cellspacing='0'>
+   <tr>
+    <td width='10' height='48'></td>
+   </tr>
+   <tr>
+    <td></td>
+    <td>
+							<img src='image022.png' width='109' height='83' alt='' />
+						</td>
+    <td width='9'></td>
+   </tr>
+   <tr>
+    <td height='11'></td>
+   </tr>
+  </table>
+  </span>
+						</td>
+						<td class='ee124' style='height:47pt;' colspan = '3'>
+							Dangler
+						</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee119' style='height:47pt;'>&nbsp;</td>
+						<td class='ee127' style='height:47pt;'>&nbsp;</td>
+						<td class='ee119' style='height:47pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;' colspan = '7'>
+							<font class='ee132'>Medidas:</font><font class='ee133'> 13 cm x 12 cm. Más una cinta de 3 cm x 10 cm de
+  poliéster.<span> </span></font>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee134' style='height:15pt;' colspan = '3'>
+							Selecciona este material
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee154' style='height:15pt;' colspan = '8' rowspan = '3'>
+							Ventajas:
+  Fácil de colocar. Se coloca en el área de impulso, cajas o anaquel sin ocupar
+  mucho espacio.<br />
+    Uso: Para impulso, call to action &quot;no olvides, pide, pregunta&quot;.
+						</td>
+						<td class='ee142' style='height:15pt;' colspan = '3'>
+                            <div data-panel='checkbox' id='panel-xlew_3_113_13' class='checkbox checkbox-primary'>
+							    <input id='xlew_3_113_13' type='checkbox' class='ee135' style=''  onclick="recalc_onclick('xlew_3_113_13')" name='xlew_3_113_13' tabindex='42' data-sheet='3' data-row='113' data-col='13'/>
+                                <label for='xlew_3_113_13'>&nbsp;</label>
+                            </div>
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee134' style='height:15pt;' colspan = '3'>
+							Cantidad para producción
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee142' style='height:15pt;' colspan = '3'>
+							 <div data-panel='slider' id = 'panel-xlew_3_115_13'><input id='xlew_3_115_13' name='xlew_3_115_13' type='text' value=0 class='span2 yes-print'  data-slider-selection='after' data-slider-tooltip='show' data-widgettype='slider' /></div>
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee143' style='height:15pt;' colspan = '2'>
+							Costo de diseño:<span> </span>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee146' style='height:15pt;'>
+							<input id='XLEW_3_116_8' type='text' value='2,500' class='ee131' style='width:100%' onchange="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),0);recalc_onclick('XLEW_3_116_8')" name='XLEW_3_116_8' placeholder='' tabindex='44' data-sheet='3' data-row='116' data-col='8'/>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;' colspan = '3'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:21pt'>
+						<td class='ee100' style='height:21pt;'>&nbsp;</td>
+						<td class='ee100' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee143' style='height:21pt;' colspan = '3'>
+							Costo de producción:
+						</td>
+						<td class='ee146' style='height:21pt;'>
+							<input id='XLEW_3_117_8' type='text' value='150' class='ee131' style='width:100%' onchange="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),0);recalc_onclick('XLEW_3_117_8')" name='XLEW_3_117_8' placeholder='' tabindex='45' data-sheet='3' data-row='117' data-col='8'/>
+						</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee150' style='height:21pt;' colspan = '3'>
+						<input id='xlew_3_117_13' type='text' readonly='readonly' value='-' class='ee150' style='overflow:hidden; border:0px solid #000000; width:100% ' name='xlew_3_117_13' tabindex='-1' />
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee153' style='height:15pt;' colspan = '3'>
+						<input id='xlew_3_118_13' type='text' readonly='readonly' value='' class='ee153' style='overflow:hidden; border:0px solid #000000; width:100% ' name='xlew_3_118_13' tabindex='-1' />
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:47pt'>
+						<td class='ee100' style='height:47pt;'>&nbsp;</td>
+						<td class='ee100' style='height:47pt;'>&nbsp;</td>
+						<td class='ee117' style='height:47pt;' colspan = '2' rowspan = '7'>
+						<span>
+  <table cellpadding='0' cellspacing='0'>
+   <tr>
+    <td width='12' height='14'></td>
+   </tr>
+   <tr>
+    <td></td>
+    <td>
+							<img src='image024.png' width='106' height='160' alt='' />
+						</td>
+    <td width='10'></td>
+   </tr>
+   <tr>
+    <td height='17'></td>
+   </tr>
+  </table>
+  </span>
+						</td>
+						<td class='ee124' style='height:47pt;' colspan = '3'>
+							Póster
+						</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee119' style='height:47pt;'>&nbsp;</td>
+						<td class='ee127' style='height:47pt;'>&nbsp;</td>
+						<td class='ee119' style='height:47pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;' colspan = '3'>
+							<font class='ee132'>Medidas:
+  </font><font class='ee133'>60 cm x 90 cm.</font>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee134' style='height:15pt;' colspan = '3'>
+							Selecciona este material
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;' colspan = '8'>
+							<font class='ee132'>Ventajas:</font><font class='ee133'> Se pone en cualquier pared o superficie lisa, no requiere
+  instalación.</font>
+						</td>
+						<td class='ee142' style='height:15pt;' colspan = '3'>
+                            <div data-panel='checkbox' id='panel-xlew_3_123_13' class='checkbox checkbox-primary'>
+							    <input id='xlew_3_123_13' type='checkbox' class='ee135' style=''  onclick="recalc_onclick('xlew_3_123_13')" name='xlew_3_123_13' tabindex='46' data-sheet='3' data-row='123' data-col='13'/>
+                                <label for='xlew_3_123_13'>&nbsp;</label>
+                            </div>
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;' colspan = '8'>
+							<font class='ee132'>Uso: </font><font class='ee133'>Para atraer la atención, señalar, informar de promociones o
+  eventos.</font>
+						</td>
+						<td class='ee134' style='height:15pt;' colspan = '3'>
+							Cantidad para producción
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee143' style='height:15pt;' colspan = '2'>
+							Costo de diseño:<span> </span>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>
+							$2,500 
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee142' style='height:15pt;' colspan = '3'>
+							 <div data-panel='slider' id = 'panel-xlew_3_125_13'><input id='xlew_3_125_13' name='xlew_3_125_13' type='text' value=0 class='span2 yes-print'  data-slider-selection='after' data-slider-tooltip='show' data-widgettype='slider' /></div>
+						</td>
+                    </tr>
+                    <tr style='height:16pt'>
+						<td class='ee100' style='height:16pt;'>&nbsp;</td>
+						<td class='ee100' style='height:16pt;'>&nbsp;</td>
+						<td class='ee143' style='height:16pt;' colspan = '3'>
+							Costo de producción:
+						</td>
+						<td class='ee146' style='height:16pt;'>
+							<input id='XLEW_3_126_8' type='text' value='350' class='ee131' style='width:100%' onchange="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),0);recalc_onclick('XLEW_3_126_8')" name='XLEW_3_126_8' placeholder='' tabindex='48' data-sheet='3' data-row='126' data-col='8'/>
+						</td>
+						<td class='ee130' style='height:16pt;'>&nbsp;</td>
+						<td class='ee130' style='height:16pt;'>&nbsp;</td>
+						<td class='ee130' style='height:16pt;'>&nbsp;</td>
+						<td class='ee130' style='height:16pt;'>&nbsp;</td>
+						<td class='ee119' style='height:16pt;'>&nbsp;</td>
+						<td class='ee160' style='height:16pt;'>&nbsp;</td>
+						<td class='ee160' style='height:16pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:21pt'>
+						<td class='ee100' style='height:21pt;'>&nbsp;</td>
+						<td class='ee100' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee147' style='height:21pt;'>
+							<input id='XLEW_3_127_8' type='text' value='' class='ee149' style='width:100%' onchange="this.value=eedisplayFloat(eeparseFloat(this.value));recalc_onclick('XLEW_3_127_8')" name='XLEW_3_127_8' placeholder='' tabindex='49' data-sheet='3' data-row='127' data-col='8'/>
+						</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee150' style='height:21pt;' colspan = '3'>
+						<input id='xlew_3_127_13' type='text' readonly='readonly' value='-' class='ee150' style='overflow:hidden; border:0px solid #000000; width:100% ' name='xlew_3_127_13' tabindex='-1' />
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee153' style='height:15pt;' colspan = '3'>
+						<input id='xlew_3_128_13' type='text' readonly='readonly' value='' class='ee153' style='overflow:hidden; border:0px solid #000000; width:100% ' name='xlew_3_128_13' tabindex='-1' />
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;' colspan = '2' rowspan = '9'>
+						<span>
+  <table cellpadding='0' cellspacing='0'>
+   <tr>
+    <td width='30' height='16'></td>
+   </tr>
+   <tr>
+    <td></td>
+    <td>
+							<img src='image026.png' width='66' height='198' alt='' />
+						</td>
+    <td width='32'></td>
+   </tr>
+   <tr>
+    <td height='17'></td>
+   </tr>
+  </table>
+  </span>
+						</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:47pt'>
+						<td class='ee100' style='height:47pt;'>&nbsp;</td>
+						<td class='ee100' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;' colspan = '3'>
+							Pendón
+						</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee119' style='height:47pt;'>&nbsp;</td>
+						<td class='ee127' style='height:47pt;'>&nbsp;</td>
+						<td class='ee119' style='height:47pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;' colspan = '3'>
+							<font class='ee132'>Medidas:</font><font class='ee133'> 60 cm x 180 cm .<span> </span></font>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee134' style='height:15pt;' colspan = '3'>
+							Selecciona este material
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;' colspan = '8'>
+							<font class='ee132'>Ventajas:</font><font class='ee133'> Es una lona vertical que puede colocarse o colgarse a buena
+  altura logran</font><span style='display:none'><font class='ee133'>do
+  buena<span> </span></font></span>
+						</td>
+						<td class='ee142' style='height:15pt;' colspan = '3'>
+                            <div data-panel='checkbox' id='panel-xlew_3_133_13' class='checkbox checkbox-primary'>
+							    <input id='xlew_3_133_13' type='checkbox' class='ee135' style=''  onclick="recalc_onclick('xlew_3_133_13')" name='xlew_3_133_13' tabindex='50' data-sheet='3' data-row='133' data-col='13'/>
+                                <label for='xlew_3_133_13'>&nbsp;</label>
+                            </div>
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;' colspan = '2'>
+							visibilidad.
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee134' style='height:15pt;' colspan = '3'>
+							Cantidad para producción
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;' colspan = '4'>
+							<font class='ee132'>Uso: </font><font class='ee133'>Para señalar, como póster.</font>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee142' style='height:15pt;' colspan = '3'>
+							 <div data-panel='slider' id = 'panel-xlew_3_135_13'><input id='xlew_3_135_13' name='xlew_3_135_13' type='text' value=0 class='span2 yes-print'  data-slider-selection='after' data-slider-tooltip='show' data-widgettype='slider' /></div>
+						</td>
+                    </tr>
+                    <tr style='height:16pt'>
+						<td class='ee100' style='height:16pt;'>&nbsp;</td>
+						<td class='ee100' style='height:16pt;'>&nbsp;</td>
+						<td class='ee143' style='height:16pt;' colspan = '2'>
+							Costo de diseño:<span> </span>
+						</td>
+						<td class='ee130' style='height:16pt;'>&nbsp;</td>
+						<td class='ee146' style='height:16pt;'>
+							<input id='XLEW_3_136_8' type='text' value='2,500' class='ee131' style='width:100%' onchange="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),0);recalc_onclick('XLEW_3_136_8')" name='XLEW_3_136_8' placeholder='' tabindex='52' data-sheet='3' data-row='136' data-col='8'/>
+						</td>
+						<td class='ee130' style='height:16pt;'>&nbsp;</td>
+						<td class='ee130' style='height:16pt;'>&nbsp;</td>
+						<td class='ee130' style='height:16pt;'>&nbsp;</td>
+						<td class='ee130' style='height:16pt;'>&nbsp;</td>
+						<td class='ee119' style='height:16pt;'>&nbsp;</td>
+						<td class='ee160' style='height:16pt;'>&nbsp;</td>
+						<td class='ee160' style='height:16pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:21pt'>
+						<td class='ee100' style='height:21pt;'>&nbsp;</td>
+						<td class='ee100' style='height:21pt;'>&nbsp;</td>
+						<td class='ee143' style='height:21pt;' colspan = '3'>
+							Costo de producción:
+						</td>
+						<td class='ee146' style='height:21pt;'>
+							<input id='XLEW_3_137_8' type='text' value='750' class='ee131' style='width:100%' onchange="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),0);recalc_onclick('XLEW_3_137_8')" name='XLEW_3_137_8' placeholder='' tabindex='53' data-sheet='3' data-row='137' data-col='8'/>
+						</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee150' style='height:21pt;' colspan = '3'>
+						<input id='xlew_3_137_13' type='text' readonly='readonly' value='-' class='ee150' style='overflow:hidden; border:0px solid #000000; width:100% ' name='xlew_3_137_13' tabindex='-1' />
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee153' style='height:15pt;' colspan = '3'>
+						<input id='xlew_3_138_13' type='text' readonly='readonly' value='' class='ee153' style='overflow:hidden; border:0px solid #000000; width:100% ' name='xlew_3_138_13' tabindex='-1' />
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:47pt'>
+						<td class='ee100' style='height:47pt;'>&nbsp;</td>
+						<td class='ee100' style='height:47pt;'>&nbsp;</td>
+						<td class='ee117' style='height:47pt;'>&nbsp;</td>
+						<td class='ee117' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;' colspan = '8'>
+							Pluma estacionamiento
+						</td>
+						<td class='ee119' style='height:47pt;'>&nbsp;</td>
+						<td class='ee127' style='height:47pt;'>&nbsp;</td>
+						<td class='ee119' style='height:47pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;' colspan = '2' rowspan = '3'>
+						<span>
+  <table cellpadding='0' cellspacing='0'>
+   <tr>
+    <td width='7' height='13'></td>
+   </tr>
+   <tr>
+    <td></td>
+    <td>
+							<img src='image028.png' width='114' height='43' alt='' />
+						</td>
+    <td width='7'></td>
+   </tr>
+   <tr>
+    <td height='4'></td>
+   </tr>
+  </table>
+  </span>
+						</td>
+						<td class='ee130' style='height:15pt;' colspan = '3'>
+							<font class='ee132'>Medidas:</font><font class='ee133'> 120 cm x 45 cm.<span> </span></font>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee134' style='height:15pt;' colspan = '3'>
+							Selecciona este material
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;' colspan = '8'>
+							<font class='ee132'>Ventajas:</font><font class='ee133'> Es un buen espacio de comunicación al llegar al punto de
+  venta. Puede ll</font><span style='display:none'><font class='ee133'>evar
+  un<span> </span></font></span>
+						</td>
+						<td class='ee142' style='height:15pt;' colspan = '3'>
+                            <div data-panel='checkbox' id='panel-xlew_3_143_13' class='checkbox checkbox-primary'>
+							    <input id='xlew_3_143_13' type='checkbox' class='ee135' style=''  onclick="recalc_onclick('xlew_3_143_13')" name='xlew_3_143_13' tabindex='54' data-sheet='3' data-row='143' data-col='13'/>
+                                <label for='xlew_3_143_13'>&nbsp;</label>
+                            </div>
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;' colspan = '2'>
+							suaje divertido.
+						</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee134' style='height:15pt;' colspan = '3'>
+							Cantidad para producción
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;' colspan = '5'>
+							<font class='ee132'>Uso: </font><font class='ee133'>Para una promoción o impulsar un producto.</font>
+						</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee142' style='height:15pt;' colspan = '3'>
+							 <div data-panel='slider' id = 'panel-xlew_3_145_13'><input id='xlew_3_145_13' name='xlew_3_145_13' type='text' value=0 class='span2 yes-print'  data-slider-selection='after' data-slider-tooltip='show' data-widgettype='slider' /></div>
+						</td>
+                    </tr>
+                    <tr style='height:16pt'>
+						<td class='ee100' style='height:16pt;'>&nbsp;</td>
+						<td class='ee100' style='height:16pt;'>&nbsp;</td>
+						<td class='ee117' style='height:16pt;'>&nbsp;</td>
+						<td class='ee117' style='height:16pt;'>&nbsp;</td>
+						<td class='ee143' style='height:16pt;' colspan = '2'>
+							Costo de diseño:<span> </span>
+						</td>
+						<td class='ee130' style='height:16pt;'>&nbsp;</td>
+						<td class='ee146' style='height:16pt;'>
+							<input id='XLEW_3_146_8' type='text' value='2,500' class='ee131' style='width:100%' onchange="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),0);recalc_onclick('XLEW_3_146_8')" name='XLEW_3_146_8' placeholder='' tabindex='56' data-sheet='3' data-row='146' data-col='8'/>
+						</td>
+						<td class='ee130' style='height:16pt;'>&nbsp;</td>
+						<td class='ee130' style='height:16pt;'>&nbsp;</td>
+						<td class='ee130' style='height:16pt;'>&nbsp;</td>
+						<td class='ee130' style='height:16pt;'>&nbsp;</td>
+						<td class='ee119' style='height:16pt;'>&nbsp;</td>
+						<td class='ee160' style='height:16pt;'>&nbsp;</td>
+						<td class='ee160' style='height:16pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:21pt'>
+						<td class='ee100' style='height:21pt;'>&nbsp;</td>
+						<td class='ee100' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee143' style='height:21pt;' colspan = '3'>
+							Costo de producción:
+						</td>
+						<td class='ee146' style='height:21pt;'>
+							<input id='XLEW_3_147_8' type='text' value='350' class='ee131' style='width:100%' onchange="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),0);recalc_onclick('XLEW_3_147_8')" name='XLEW_3_147_8' placeholder='' tabindex='57' data-sheet='3' data-row='147' data-col='8'/>
+						</td>
+						<td class='ee130' style='height:21pt;'>&nbsp;</td>
+						<td class='ee130' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee150' style='height:21pt;' colspan = '3'>
+						<input id='xlew_3_147_13' type='text' readonly='readonly' value='-' class='ee150' style='overflow:hidden; border:0px solid #000000; width:100% ' name='xlew_3_147_13' tabindex='-1' />
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee153' style='height:15pt;' colspan = '3'>
+						<input id='xlew_3_148_13' type='text' readonly='readonly' value='' class='ee153' style='overflow:hidden; border:0px solid #000000; width:100% ' name='xlew_3_148_13' tabindex='-1' />
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+						<td class='ee119' style='height:15pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:47pt'>
+						<td class='ee100' style='height:47pt;'>&nbsp;</td>
+						<td class='ee100' style='height:47pt;'>&nbsp;</td>
+						<td class='ee117' style='height:47pt;'>&nbsp;</td>
+						<td class='ee117' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;' colspan = '2'>
+							Lona
+						</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee124' style='height:47pt;'>&nbsp;</td>
+						<td class='ee119' style='height:47pt;'>&nbsp;</td>
+						<td class='ee127' style='height:47pt;'>&nbsp;</td>
+						<td class='ee119' style='height:47pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;' colspan = '2' rowspan = '4'>
+						<span>
+  <table cellpadding='0' cellspacing='0'>
+   <tr>
+    <td width='12' height='0'></td>
+   </tr>
+   <tr>
+    <td></td>
+    <td>
+							<img src='image030.png' width='114' height='75' alt='' />
+						</td>
+    <td width='2'></td>
+   </tr>
+   <tr>
+    <td height='5'></td>
+   </tr>
+  </table>
+  </span>
+						</td>
+						<td class='ee130' style='height:15pt;' colspan = '3'>
+							<font class='ee132'>Medidas:</font><font class='ee133'> 300 cm x 200 cm.</font>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee134' style='height:15pt;' colspan = '3'>
+							Selecciona este material
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;' colspan = '4'>
+							<font class='ee132'>Ventajas:</font><font class='ee133'> Gran tamaño y visibilidad.</font>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee142' style='height:15pt;' colspan = '3'>
+                            <div data-panel='checkbox' id='panel-xlew_3_153_13' class='checkbox checkbox-primary'>
+							    <input id='xlew_3_153_13' type='checkbox' class='ee135' style=''  onclick="recalc_onclick('xlew_3_153_13')" name='xlew_3_153_13' tabindex='58' data-sheet='3' data-row='153' data-col='13'/>
+                                <label for='xlew_3_153_13'>&nbsp;</label>
+                            </div>
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;' colspan = '7'>
+							<font class='ee132'>Uso: </font><font class='ee133'>Señalar, comunicar fuerte una promoción, para exteriores.</font>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee134' style='height:15pt;' colspan = '3'>
+							Cantidad para producción
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee143' style='height:15pt;' colspan = '2'>
+							Costo de diseño:<span> </span>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee146' style='height:15pt;'>
+							<input id='XLEW_3_155_8' type='text' value='2,500' class='ee131' style='width:100%' onchange="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),0);recalc_onclick('XLEW_3_155_8')" name='XLEW_3_155_8' placeholder='' tabindex='59' data-sheet='3' data-row='155' data-col='8'/>
+						</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee130' style='height:15pt;'>&nbsp;</td>
+						<td class='ee142' style='height:15pt;' colspan = '3'>
+							 <div data-panel='slider' id = 'panel-xlew_3_155_13'><input id='xlew_3_155_13' name='xlew_3_155_13' type='text' value=0 class='span2 yes-print'  data-slider-selection='after' data-slider-tooltip='show' data-widgettype='slider' /></div>
+						</td>
+                    </tr>
+                    <tr style='height:16pt'>
+						<td class='ee100' style='height:16pt;'>&nbsp;</td>
+						<td class='ee100' style='height:16pt;'>&nbsp;</td>
+						<td class='ee117' style='height:16pt;'>&nbsp;</td>
+						<td class='ee117' style='height:16pt;'>&nbsp;</td>
+						<td class='ee143' style='height:16pt;' colspan = '3'>
+							Costo de producción:
+						</td>
+						<td class='ee146' style='height:16pt;'>
+							<input id='XLEW_3_156_8' type='text' value='950' class='ee131' style='width:100%' onchange="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),0);recalc_onclick('XLEW_3_156_8')" name='XLEW_3_156_8' placeholder='' tabindex='61' data-sheet='3' data-row='156' data-col='8'/>
+						</td>
+						<td class='ee130' style='height:16pt;'>&nbsp;</td>
+						<td class='ee130' style='height:16pt;'>&nbsp;</td>
+						<td class='ee130' style='height:16pt;'>&nbsp;</td>
+						<td class='ee130' style='height:16pt;'>&nbsp;</td>
+						<td class='ee119' style='height:16pt;'>&nbsp;</td>
+						<td class='ee160' style='height:16pt;'>&nbsp;</td>
+						<td class='ee160' style='height:16pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:21pt'>
+						<td class='ee100' style='height:21pt;'>&nbsp;</td>
+						<td class='ee100' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee117' style='height:21pt;'>&nbsp;</td>
+						<td class='ee150' style='height:21pt;' colspan = '3'>
+						<input id='xlew_3_157_13' type='text' readonly='readonly' value='-' class='ee150' style='overflow:hidden; border:0px solid #000000; width:100% ' name='xlew_3_157_13' tabindex='-1' />
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee117' style='height:15pt;'>&nbsp;</td>
+						<td class='ee153' style='height:15pt;' colspan = '3'>
+						<input id='xlew_3_158_13' type='text' readonly='readonly' value='' class='ee153' style='overflow:hidden; border:0px solid #000000; width:100% ' name='xlew_3_158_13' tabindex='-1' />
+						</td>
+                    </tr>
+                    <tr style='height:15pt'>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+						<td class='ee100' style='height:15pt;'>&nbsp;</td>
+                    </tr>
+                </table>
+
+              </section>
+</div>
+            </div>
+			<input type="hidden" id="xl_target2" name="xl_target2" value="nsE5TnC8XcUll9PU+dbpWF9HVTJKVXGA1n7SjSYom5EkS3s1GSyZiXH3i3qMe8s+AaCTs+KdSbxCOb7x/WvWuqiJVkVwgUUr6oGYYgkhIiFMPr9hi3g81gFlgIyKTrujMBlteLrcKgnHWmYV4YZeebVdIDkVMUlWGeka6UTCLG0="><input type="hidden" id="xl_templateimages" name="xl_templateimages" value="1"><input type="hidden" id="xl_md5" name="xl_md5" value="Ge/4zb0HPlCkTH+cYrGg5w==">
+        </form>
+        <section class='row toolbar no-print'>
+			<div class='wizardPanel col-xs-12 col-sm-12 col-md-7'></div>
+            
+            <div class='toolbar-panel-right col-xs-12 col-sm-12 col-md-5'>
+                <section id='ssc-ls'></section><a class='poweredby-logo' href='http://www.spreadsheetconverter.com/excel-html-web.htm' target='_blank' tabindex='-1' title='Convert Excel spreadsheet to online form' alt='Convert Excel spreadsheet to online form'></a></div>
+        </section>
+    </body>
+    <script type="text/javascript">
+            function showValidateMessage(message,title){
+                if(toastr){if(title && title.length>0){toastr.error(message,title);}else{toastr.error(message);}}else{alert(message);}
+            }
+var co = new Object;
+function recalc_onclick(ctl) {
+  if (true) {
+
+
+co['xlew_3_13_13']=document.getElementById('xlew_3_13_13').checked;co['xlew_3_15_13']=eeparseFloat(document.getElementById('xlew_3_15_13').value);co['XLEW_3_16_8']=eeparseFloatTh(document.getElementById('XLEW_3_16_8').value);co['XLEW_3_17_8']=eeparseFloatTh(document.getElementById('XLEW_3_17_8').value);co['xlew_3_17_11']=eeparseFloat(document.getElementById('xlew_3_17_11').value);co['xlew_3_23_13']=document.getElementById('xlew_3_23_13').checked;co['xlew_3_25_13']=eeparseFloat(document.getElementById('xlew_3_25_13').value);co['XLEW_3_26_8']=eeparseFloatTh(document.getElementById('XLEW_3_26_8').value);co['XLEW_3_27_8']=eeparseFloatTh(document.getElementById('XLEW_3_27_8').value);co['xlew_3_33_13']=document.getElementById('xlew_3_33_13').checked;co['xlew_3_35_13']=eeparseFloat(document.getElementById('xlew_3_35_13').value);co['XLEW_3_36_8']=eeparseFloatTh(document.getElementById('XLEW_3_36_8').value);co['XLEW_3_37_8']=eeparseFloatTh(document.getElementById('XLEW_3_37_8').value);co['xlew_3_43_13']=document.getElementById('xlew_3_43_13').checked;co['xlew_3_45_13']=eeparseFloat(document.getElementById('xlew_3_45_13').value);co['XLEW_3_46_8']=eeparseFloatTh(document.getElementById('XLEW_3_46_8').value);co['XLEW_3_47_8']=eeparseFloatTh(document.getElementById('XLEW_3_47_8').value);co['xlew_3_53_13']=document.getElementById('xlew_3_53_13').checked;co['xlew_3_55_13']=eeparseFloat(document.getElementById('xlew_3_55_13').value);co['XLEW_3_56_8']=eeparseFloatTh(document.getElementById('XLEW_3_56_8').value);
+co['XLEW_3_57_8']=eeparseFloatTh(document.getElementById('XLEW_3_57_8').value);co['xlew_3_63_13']=document.getElementById('xlew_3_63_13').checked;co['xlew_3_65_13']=eeparseFloat(document.getElementById('xlew_3_65_13').value);co['XLEW_3_66_8']=eeparseFloatTh(document.getElementById('XLEW_3_66_8').value);co['XLEW_3_67_8']=eeparseFloatTh(document.getElementById('XLEW_3_67_8').value);co['xlew_3_73_13']=document.getElementById('xlew_3_73_13').checked;co['xlew_3_75_13']=eeparseFloat(document.getElementById('xlew_3_75_13').value);co['XLEW_3_76_8']=eeparseFloatTh(document.getElementById('XLEW_3_76_8').value);co['XLEW_3_77_8']=eeparseFloatTh(document.getElementById('XLEW_3_77_8').value);co['xlew_3_83_13']=document.getElementById('xlew_3_83_13').checked;co['xlew_3_85_13']=eeparseFloat(document.getElementById('xlew_3_85_13').value);co['XLEW_3_86_8']=eeparseFloatTh(document.getElementById('XLEW_3_86_8').value);co['XLEW_3_87_8']=eeparseFloatTh(document.getElementById('XLEW_3_87_8').value);co['xlew_3_93_13']=document.getElementById('xlew_3_93_13').checked;co['xlew_3_95_13']=eeparseFloat(document.getElementById('xlew_3_95_13').value);co['XLEW_3_96_8']=eeparseFloatTh(document.getElementById('XLEW_3_96_8').value);co['XLEW_3_97_8']=eeparseFloatTh(document.getElementById('XLEW_3_97_8').value);co['xlew_3_103_13']=document.getElementById('xlew_3_103_13').checked;co['xlew_3_105_13']=eeparseFloat(document.getElementById('xlew_3_105_13').value);co['XLEW_3_106_8']=eeparseFloatTh(document.getElementById('XLEW_3_106_8').value);
+co['XLEW_3_107_8']=eeparseFloatTh(document.getElementById('XLEW_3_107_8').value);co['xlew_3_113_13']=document.getElementById('xlew_3_113_13').checked;co['xlew_3_115_13']=eeparseFloat(document.getElementById('xlew_3_115_13').value);co['XLEW_3_116_8']=eeparseFloatTh(document.getElementById('XLEW_3_116_8').value);co['XLEW_3_117_8']=eeparseFloatTh(document.getElementById('XLEW_3_117_8').value);co['xlew_3_123_13']=document.getElementById('xlew_3_123_13').checked;co['xlew_3_125_13']=eeparseFloat(document.getElementById('xlew_3_125_13').value);co['XLEW_3_126_8']=eeparseFloatTh(document.getElementById('XLEW_3_126_8').value);co['XLEW_3_127_8']=eeparseFloat(document.getElementById('XLEW_3_127_8').value);co['xlew_3_133_13']=document.getElementById('xlew_3_133_13').checked;co['xlew_3_135_13']=eeparseFloat(document.getElementById('xlew_3_135_13').value);co['XLEW_3_136_8']=eeparseFloatTh(document.getElementById('XLEW_3_136_8').value);co['XLEW_3_137_8']=eeparseFloatTh(document.getElementById('XLEW_3_137_8').value);co['xlew_3_143_13']=document.getElementById('xlew_3_143_13').checked;co['xlew_3_145_13']=eeparseFloat(document.getElementById('xlew_3_145_13').value);co['XLEW_3_146_8']=eeparseFloatTh(document.getElementById('XLEW_3_146_8').value);co['XLEW_3_147_8']=eeparseFloatTh(document.getElementById('XLEW_3_147_8').value);co['xlew_3_153_13']=document.getElementById('xlew_3_153_13').checked;co['XLEW_3_155_8']=eeparseFloatTh(document.getElementById('XLEW_3_155_8').value);co['xlew_3_155_13']=eeparseFloat(document.getElementById('xlew_3_155_13').value);
+co['XLEW_3_156_8']=eeparseFloatTh(document.getElementById('XLEW_3_156_8').value);calc(co);if(ssc !== undefined && ssc.realtimesync !== undefined && ssc.realtimesync.connected){ssc.realtimesync.coUpdate(co,ctl);}document.getElementById('xlew_3_6_9').value=eedatefmt(fmtdate2,co['xlew_3_6_9']);document.getElementById('xlew_3_8_9').value=eedatefmt(fmtdate2,co['xlew_3_8_9']);document.getElementById('xlew_3_17_13').value=eedatefmt(fmtdate2,co['xlew_3_17_13']);document.getElementById('xlew_3_18_13').value=co['xlew_3_18_13'];document.getElementById('xlew_3_27_13').value=eedatefmt(fmtdate2,co['xlew_3_27_13']);document.getElementById('xlew_3_28_13').value=co['xlew_3_28_13'];document.getElementById('xlew_3_37_13').value=eedatefmt(fmtdate2,co['xlew_3_37_13']);document.getElementById('xlew_3_38_13').value=co['xlew_3_38_13'];document.getElementById('xlew_3_47_13').value=eedatefmt(fmtdate2,co['xlew_3_47_13']);document.getElementById('xlew_3_48_13').value=co['xlew_3_48_13'];document.getElementById('xlew_3_57_13').value=eedatefmt(fmtdate2,co['xlew_3_57_13']);document.getElementById('xlew_3_58_13').value=co['xlew_3_58_13'];document.getElementById('xlew_3_67_13').value=eedatefmt(fmtdate2,co['xlew_3_67_13']);document.getElementById('xlew_3_68_13').value=co['xlew_3_68_13'];document.getElementById('xlew_3_77_13').value=eedatefmt(fmtdate2,co['xlew_3_77_13']);document.getElementById('xlew_3_78_13').value=co['xlew_3_78_13'];document.getElementById('xlew_3_87_13').value=eedatefmt(fmtdate2,co['xlew_3_87_13']);document.getElementById('xlew_3_88_13').value=co['xlew_3_88_13'];document.getElementById('xlew_3_97_13').value=eedatefmt(fmtdate2,co['xlew_3_97_13']);
+document.getElementById('xlew_3_98_13').value=co['xlew_3_98_13'];document.getElementById('xlew_3_107_13').value=eedatefmt(fmtdate2,co['xlew_3_107_13']);document.getElementById('xlew_3_108_13').value=co['xlew_3_108_13'];document.getElementById('xlew_3_117_13').value=eedatefmt(fmtdate2,co['xlew_3_117_13']);document.getElementById('xlew_3_118_13').value=co['xlew_3_118_13'];document.getElementById('xlew_3_127_13').value=eedatefmt(fmtdate2,co['xlew_3_127_13']);document.getElementById('xlew_3_128_13').value=co['xlew_3_128_13'];document.getElementById('xlew_3_137_13').value=eedatefmt(fmtdate2,co['xlew_3_137_13']);document.getElementById('xlew_3_138_13').value=co['xlew_3_138_13'];document.getElementById('xlew_3_147_13').value=eedatefmt(fmtdate2,co['xlew_3_147_13']);document.getElementById('xlew_3_148_13').value=co['xlew_3_148_13'];document.getElementById('xlew_3_157_13').value=eedatefmt(fmtdate2,co['xlew_3_157_13']);document.getElementById('xlew_3_158_13').value=co['xlew_3_158_13'];
+};};
+var eecm1=new Array();function calc(data){var c3H156=data['XLEW_3_156_8'];var c3M155=data['xlew_3_155_13'];var c3H155=data['XLEW_3_155_8'];var c3M153=data['xlew_3_153_13'];var c3H147=data['XLEW_3_147_8'];var c3H146=data['XLEW_3_146_8'];var c3M145=data['xlew_3_145_13'];var c3M143=data['xlew_3_143_13'];var c3H137=data['XLEW_3_137_8'];var c3H136=data['XLEW_3_136_8'];var c3M135=data['xlew_3_135_13'];var c3M133=data['xlew_3_133_13'];var c3H127=data['XLEW_3_127_8'];var c3H126=data['XLEW_3_126_8'];var c3M125=data['xlew_3_125_13'];var c3M123=data['xlew_3_123_13'];var c3H117=data['XLEW_3_117_8'];var c3H116=data['XLEW_3_116_8'];var c3M115=data['xlew_3_115_13'];var c3M113=data['xlew_3_113_13'];var c3H107=data['XLEW_3_107_8'];var c3H106=data['XLEW_3_106_8'];var c3M105=data['xlew_3_105_13'];var c3M103=data['xlew_3_103_13'];var c3H97=data['XLEW_3_97_8'];var c3H96=data['XLEW_3_96_8'];var c3M95=data['xlew_3_95_13'];var c3M93=data['xlew_3_93_13'];var c3H87=data['XLEW_3_87_8'];var c3H86=data['XLEW_3_86_8'];var c3M85=data['xlew_3_85_13'];var c3M83=data['xlew_3_83_13'];var c3H77=data['XLEW_3_77_8'];var c3H76=data['XLEW_3_76_8'];var c3M75=data['xlew_3_75_13'];var c3M73=data['xlew_3_73_13'];var c3H67=data['XLEW_3_67_8'];var c3H66=data['XLEW_3_66_8'];var c3M65=data['xlew_3_65_13'];var c3M63=data['xlew_3_63_13'];var c3H57=data['XLEW_3_57_8'];var c3H56=data['XLEW_3_56_8'];var c3M55=data['xlew_3_55_13'];var c3M53=data['xlew_3_53_13'];
+var c3H47=data['XLEW_3_47_8'];var c3H46=data['XLEW_3_46_8'];var c3M45=data['xlew_3_45_13'];var c3M43=data['xlew_3_43_13'];var c3H37=data['XLEW_3_37_8'];var c3H36=data['XLEW_3_36_8'];var c3M35=data['xlew_3_35_13'];var c3M33=data['xlew_3_33_13'];var c3H27=data['XLEW_3_27_8'];var c3H26=data['XLEW_3_26_8'];var c3M25=data['xlew_3_25_13'];var c3M23=data['xlew_3_23_13'];var c3K17=data['xlew_3_17_11'];var c3H17=data['XLEW_3_17_8'];var c3H16=data['XLEW_3_16_8'];var c3M15=data['xlew_3_15_13'];var c3M13=data['xlew_3_13_13'];var c3M17=(((((c3M15)*(c3H17)))+(((((c3M13)!=(false)))?(c3H16):(0)))));var tmp1=(((c3M13)==(false)));var tmp2=(((c3M15)==(0)));var sumcnt3_sum=((true&&tmp2)&&tmp1);var sumcnt3_cnt=2;var tmp4=(((c3M13)!=(false)));var tmp5=(((c3M15)==(0)));var sumcnt6_sum=((true&&tmp5)&&tmp4);var sumcnt6_cnt=2;var tmp7=(((c3M13)==(false)));var tmp8=(((c3M15)!=(0)));var sumcnt9_sum=((true&&tmp8)&&tmp7);var sumcnt9_cnt=2;var tmp10=(((c3M13)!=(false)));var tmp11=(((c3M15)!=(0)));var sumcnt12_sum=((true&&tmp11)&&tmp10);var sumcnt12_cnt=2;var c3M18=(((((((((andgeneral(0,sumcnt3_sum,sumcnt3_cnt,eecm1))?(" "):("")))+(((andgeneral(0,sumcnt6_sum,sumcnt6_cnt,eecm1))?("Sólo diseño"):("")))))+(((andgeneral(0,sumcnt9_sum,sumcnt9_cnt,eecm1))?("Sólo producción"):("")))))+(((andgeneral(0,sumcnt12_sum,sumcnt12_cnt,eecm1))?("Diseño y producción"):("")))));var c3M27=(((((c3M25)*(c3H27)))+(((((c3M23)!=(false)))?(c3H26):(0)))));
+ var tmp13=(((c3M23)==(false)));var tmp14=(((c3M25)==(0)));var sumcnt15_sum=((true&&tmp14)&&tmp13);var sumcnt15_cnt=2;var tmp16=(((c3M23)!=(false)));var tmp17=(((c3M25)==(0)));var sumcnt18_sum=((true&&tmp17)&&tmp16);var sumcnt18_cnt=2;var tmp19=(((c3M23)==(false)));var tmp20=(((c3M25)!=(0)));var sumcnt21_sum=((true&&tmp20)&&tmp19);var sumcnt21_cnt=2;var tmp22=(((c3M23)!=(false)));var tmp23=(((c3M25)!=(0)));var sumcnt24_sum=((true&&tmp23)&&tmp22);var sumcnt24_cnt=2;var c3M28=(((((((((andgeneral(0,sumcnt15_sum,sumcnt15_cnt,eecm1))?(" "):("")))+(((andgeneral(0,sumcnt18_sum,sumcnt18_cnt,eecm1))?("Sólo diseño"):("")))))+(((andgeneral(0,sumcnt21_sum,sumcnt21_cnt,eecm1))?("Sólo producción"):("")))))+(((andgeneral(0,sumcnt24_sum,sumcnt24_cnt,eecm1))?("Diseño y producción"):("")))));var c3M37=(((((c3M35)*(c3H37)))+(((((c3M33)!=(false)))?(c3H36):(0)))));var tmp25=(((c3M33)==(false)));var tmp26=(((c3M35)==(0)));var sumcnt27_sum=((true&&tmp26)&&tmp25);var sumcnt27_cnt=2;var tmp28=(((c3M33)!=(false)));var tmp29=(((c3M35)==(0)));var sumcnt30_sum=((true&&tmp29)&&tmp28);var sumcnt30_cnt=2;var tmp31=(((c3M33)==(false)));var tmp32=(((c3M35)!=(0)));var sumcnt33_sum=((true&&tmp32)&&tmp31);var sumcnt33_cnt=2;var tmp34=(((c3M33)!=(false)));var tmp35=(((c3M35)!=(0)));var sumcnt36_sum=((true&&tmp35)&&tmp34);var sumcnt36_cnt=2;var c3M38=(((((((((andgeneral(0,sumcnt27_sum,sumcnt27_cnt,eecm1))?(" "):("")))+(((andgeneral(0,sumcnt30_sum,sumcnt30_cnt,eecm1))?("Sólo diseño"):("")))))+(((andgeneral(0,sumcnt33_sum,sumcnt33_cnt,eecm1))?("Sólo producción"):("")))))+(((andgeneral(0,sumcnt36_sum,sumcnt36_cnt,eecm1))?("Diseño y producción"):("")))));
+ var c3M47=(((((c3M45)*(c3H47)))+(((((c3M43)!=(false)))?(c3H46):(0)))));var tmp37=(((c3M43)==(false)));var tmp38=(((c3M45)==(0)));var sumcnt39_sum=((true&&tmp38)&&tmp37);var sumcnt39_cnt=2;var tmp40=(((c3M43)!=(false)));var tmp41=(((c3M45)==(0)));var sumcnt42_sum=((true&&tmp41)&&tmp40);var sumcnt42_cnt=2;var tmp43=(((c3M43)==(false)));var tmp44=(((c3M45)!=(0)));var sumcnt45_sum=((true&&tmp44)&&tmp43);var sumcnt45_cnt=2;var tmp46=(((c3M43)!=(false)));var tmp47=(((c3M45)!=(0)));var sumcnt48_sum=((true&&tmp47)&&tmp46);var sumcnt48_cnt=2;var c3M48=(((((((((andgeneral(0,sumcnt39_sum,sumcnt39_cnt,eecm1))?(" "):("")))+(((andgeneral(0,sumcnt42_sum,sumcnt42_cnt,eecm1))?("Sólo diseño"):("")))))+(((andgeneral(0,sumcnt45_sum,sumcnt45_cnt,eecm1))?("Sólo producción"):("")))))+(((andgeneral(0,sumcnt48_sum,sumcnt48_cnt,eecm1))?("Diseño y producción"):("")))));var c3M57=(((((c3M55)*(c3H57)))+(((((c3M53)!=(false)))?(c3H56):(0)))));var tmp49=(((c3M53)==(false)));var tmp50=(((c3M55)==(0)));var sumcnt51_sum=((true&&tmp50)&&tmp49);var sumcnt51_cnt=2;var tmp52=(((c3M53)!=(false)));var tmp53=(((c3M55)==(0)));var sumcnt54_sum=((true&&tmp53)&&tmp52);var sumcnt54_cnt=2;var tmp55=(((c3M53)==(false)));var tmp56=(((c3M55)!=(0)));var sumcnt57_sum=((true&&tmp56)&&tmp55);var sumcnt57_cnt=2;var tmp58=(((c3M53)!=(false)));var tmp59=(((c3M55)!=(0)));var sumcnt60_sum=((true&&tmp59)&&tmp58);var sumcnt60_cnt=2;var c3M58=(((((((((andgeneral(0,sumcnt51_sum,sumcnt51_cnt,eecm1))?(" "):("")))+(((andgeneral(0,sumcnt54_sum,sumcnt54_cnt,eecm1))?("Sólo diseño"):("")))))+(((andgeneral(0,sumcnt57_sum,sumcnt57_cnt,eecm1))?("Sólo producción"):("")))))+(((andgeneral(0,sumcnt60_sum,sumcnt60_cnt,eecm1))?("Diseño y producción"):("")))));
+ var c3M67=(((((c3M65)*(c3H67)))+(((((c3M63)!=(false)))?(c3H66):(0)))));var tmp61=(((c3M63)==(false)));var tmp62=(((c3M65)==(0)));var sumcnt63_sum=((true&&tmp62)&&tmp61);var sumcnt63_cnt=2;var tmp64=(((c3M63)!=(false)));var tmp65=(((c3M65)==(0)));var sumcnt66_sum=((true&&tmp65)&&tmp64);var sumcnt66_cnt=2;var tmp67=(((c3M63)==(false)));var tmp68=(((c3M65)!=(0)));var sumcnt69_sum=((true&&tmp68)&&tmp67);var sumcnt69_cnt=2;var tmp70=(((c3M63)!=(false)));var tmp71=(((c3M65)!=(0)));var sumcnt72_sum=((true&&tmp71)&&tmp70);var sumcnt72_cnt=2;var c3M68=(((((((((andgeneral(0,sumcnt63_sum,sumcnt63_cnt,eecm1))?(" "):("")))+(((andgeneral(0,sumcnt66_sum,sumcnt66_cnt,eecm1))?("Sólo diseño"):("")))))+(((andgeneral(0,sumcnt69_sum,sumcnt69_cnt,eecm1))?("Sólo producción"):("")))))+(((andgeneral(0,sumcnt72_sum,sumcnt72_cnt,eecm1))?("Diseño y producción"):("")))));var c3M77=(((((c3M75)*(c3H77)))+(((((c3M73)!=(false)))?(c3H76):(0)))));var tmp73=(((c3M73)==(false)));var tmp74=(((c3M75)==(0)));var sumcnt75_sum=((true&&tmp74)&&tmp73);var sumcnt75_cnt=2;var tmp76=(((c3M73)!=(false)));var tmp77=(((c3M75)==(0)));var sumcnt78_sum=((true&&tmp77)&&tmp76);var sumcnt78_cnt=2;var tmp79=(((c3M73)==(false)));var tmp80=(((c3M75)!=(0)));var sumcnt81_sum=((true&&tmp80)&&tmp79);var sumcnt81_cnt=2;var tmp82=(((c3M73)!=(false)));var tmp83=(((c3M75)!=(0)));var sumcnt84_sum=((true&&tmp83)&&tmp82);var sumcnt84_cnt=2;var c3M78=(((((((((andgeneral(0,sumcnt75_sum,sumcnt75_cnt,eecm1))?(" "):("")))+(((andgeneral(0,sumcnt78_sum,sumcnt78_cnt,eecm1))?("Sólo diseño"):("")))))+(((andgeneral(0,sumcnt81_sum,sumcnt81_cnt,eecm1))?("Sólo producción"):("")))))+(((andgeneral(0,sumcnt84_sum,sumcnt84_cnt,eecm1))?("Diseño y producción"):("")))));
+ var c3M87=(((((c3M85)*(c3H87)))+(((((c3M83)!=(false)))?(c3H86):(0)))));var tmp85=(((c3M83)==(false)));var tmp86=(((c3M85)==(0)));var sumcnt87_sum=((true&&tmp86)&&tmp85);var sumcnt87_cnt=2;var tmp88=(((c3M83)!=(false)));var tmp89=(((c3M85)==(0)));var sumcnt90_sum=((true&&tmp89)&&tmp88);var sumcnt90_cnt=2;var tmp91=(((c3M83)==(false)));var tmp92=(((c3M85)!=(0)));var sumcnt93_sum=((true&&tmp92)&&tmp91);var sumcnt93_cnt=2;var tmp94=(((c3M83)!=(false)));var tmp95=(((c3M85)!=(0)));var sumcnt96_sum=((true&&tmp95)&&tmp94);var sumcnt96_cnt=2;var c3M88=(((((((((andgeneral(0,sumcnt87_sum,sumcnt87_cnt,eecm1))?(" "):("")))+(((andgeneral(0,sumcnt90_sum,sumcnt90_cnt,eecm1))?("Sólo diseño"):("")))))+(((andgeneral(0,sumcnt93_sum,sumcnt93_cnt,eecm1))?("Sólo producción"):("")))))+(((andgeneral(0,sumcnt96_sum,sumcnt96_cnt,eecm1))?("Diseño y producción"):("")))));var c3M97=(((((c3M95)*(c3H97)))+(((((c3M93)!=(false)))?(c3H96):(0)))));var tmp97=(((c3M93)==(false)));var tmp98=(((c3M95)==(0)));var sumcnt99_sum=((true&&tmp98)&&tmp97);var sumcnt99_cnt=2;var tmp100=(((c3M93)!=(false)));var tmp101=(((c3M95)==(0)));var sumcnt102_sum=((true&&tmp101)&&tmp100);var sumcnt102_cnt=2;var tmp103=(((c3M93)==(false)));var tmp104=(((c3M95)!=(0)));var sumcnt105_sum=((true&&tmp104)&&tmp103);var sumcnt105_cnt=2;var tmp106=(((c3M93)!=(false)));var tmp107=(((c3M95)!=(0)));var sumcnt108_sum=((true&&tmp107)&&tmp106);var sumcnt108_cnt=2;var c3M98=(((((((((andgeneral(0,sumcnt99_sum,sumcnt99_cnt,eecm1))?(" "):("")))+(((andgeneral(0,sumcnt102_sum,sumcnt102_cnt,eecm1))?("Sólo diseño"):("")))))+(((andgeneral(0,sumcnt105_sum,sumcnt105_cnt,eecm1))?("Sólo producción"):("")))))+(((andgeneral(0,sumcnt108_sum,sumcnt108_cnt,eecm1))?("Diseño y producción"):("")))));
+ var c3M107=(((((c3M105)*(c3H107)))+(((((c3M103)!=(false)))?(c3H106):(0)))));var tmp109=(((c3M103)==(false)));var tmp110=(((c3M105)==(0)));var sumcnt111_sum=((true&&tmp110)&&tmp109);var sumcnt111_cnt=2;var tmp112=(((c3M103)!=(false)));var tmp113=(((c3M105)==(0)));var sumcnt114_sum=((true&&tmp113)&&tmp112);var sumcnt114_cnt=2;var tmp115=(((c3M103)==(false)));var tmp116=(((c3M105)!=(0)));var sumcnt117_sum=((true&&tmp116)&&tmp115);var sumcnt117_cnt=2;var tmp118=(((c3M103)!=(false)));var tmp119=(((c3M105)!=(0)));var sumcnt120_sum=((true&&tmp119)&&tmp118);var sumcnt120_cnt=2;var c3M108=(((((((((andgeneral(0,sumcnt111_sum,sumcnt111_cnt,eecm1))?(" "):("")))+(((andgeneral(0,sumcnt114_sum,sumcnt114_cnt,eecm1))?("Sólo diseño"):("")))))+(((andgeneral(0,sumcnt117_sum,sumcnt117_cnt,eecm1))?("Sólo producción"):("")))))+(((andgeneral(0,sumcnt120_sum,sumcnt120_cnt,eecm1))?("Diseño y producción"):("")))));var c3M117=(((((c3M115)*(c3H117)))+(((((c3M113)!=(false)))?(c3H116):(0)))));var tmp121=(((c3M113)==(false)));var tmp122=(((c3M115)==(0)));var sumcnt123_sum=((true&&tmp122)&&tmp121);var sumcnt123_cnt=2;var tmp124=(((c3M113)!=(false)));var tmp125=(((c3M115)==(0)));var sumcnt126_sum=((true&&tmp125)&&tmp124);var sumcnt126_cnt=2;var tmp127=(((c3M113)==(false)));var tmp128=(((c3M115)!=(0)));var sumcnt129_sum=((true&&tmp128)&&tmp127);var sumcnt129_cnt=2;var tmp130=(((c3M113)!=(false)));var tmp131=(((c3M115)!=(0)));var sumcnt132_sum=((true&&tmp131)&&tmp130);var sumcnt132_cnt=2;var c3M118=(((((((((andgeneral(0,sumcnt123_sum,sumcnt123_cnt,eecm1))?(" "):("")))+(((andgeneral(0,sumcnt126_sum,sumcnt126_cnt,eecm1))?("Sólo diseño"):("")))))+(((andgeneral(0,sumcnt129_sum,sumcnt129_cnt,eecm1))?("Sólo producción"):("")))))+(((andgeneral(0,sumcnt132_sum,sumcnt132_cnt,eecm1))?("Diseño y producción"):("")))));
+ var c3M127=(((((c3M125)*(c3H127)))+(((((c3M123)!=(false)))?(c3H126):(0)))));var tmp133=(((c3M123)==(false)));var tmp134=(((c3M125)==(0)));var sumcnt135_sum=((true&&tmp134)&&tmp133);var sumcnt135_cnt=2;var tmp136=(((c3M123)!=(false)));var tmp137=(((c3M125)==(0)));var sumcnt138_sum=((true&&tmp137)&&tmp136);var sumcnt138_cnt=2;var tmp139=(((c3M123)==(false)));var tmp140=(((c3M125)!=(0)));var sumcnt141_sum=((true&&tmp140)&&tmp139);var sumcnt141_cnt=2;var tmp142=(((c3M123)!=(false)));var tmp143=(((c3M125)!=(0)));var sumcnt144_sum=((true&&tmp143)&&tmp142);var sumcnt144_cnt=2;var c3M128=(((((((((andgeneral(0,sumcnt135_sum,sumcnt135_cnt,eecm1))?(" "):("")))+(((andgeneral(0,sumcnt138_sum,sumcnt138_cnt,eecm1))?("Sólo diseño"):("")))))+(((andgeneral(0,sumcnt141_sum,sumcnt141_cnt,eecm1))?("Sólo producción"):("")))))+(((andgeneral(0,sumcnt144_sum,sumcnt144_cnt,eecm1))?("Diseño y producción"):("")))));var c3M137=(((((c3M135)*(c3H137)))+(((((c3M133)!=(false)))?(c3H136):(0)))));var tmp145=(((c3M133)==(false)));var tmp146=(((c3M135)==(0)));var sumcnt147_sum=((true&&tmp146)&&tmp145);var sumcnt147_cnt=2;var tmp148=(((c3M133)!=(false)));var tmp149=(((c3M135)==(0)));var sumcnt150_sum=((true&&tmp149)&&tmp148);var sumcnt150_cnt=2;var tmp151=(((c3M133)==(false)));var tmp152=(((c3M135)!=(0)));var sumcnt153_sum=((true&&tmp152)&&tmp151);var sumcnt153_cnt=2;var tmp154=(((c3M133)!=(false)));var tmp155=(((c3M135)!=(0)));var sumcnt156_sum=((true&&tmp155)&&tmp154);var sumcnt156_cnt=2;var c3M138=(((((((((andgeneral(0,sumcnt147_sum,sumcnt147_cnt,eecm1))?(" "):("")))+(((andgeneral(0,sumcnt150_sum,sumcnt150_cnt,eecm1))?("Sólo diseño"):("")))))+(((andgeneral(0,sumcnt153_sum,sumcnt153_cnt,eecm1))?("Sólo producción"):("")))))+(((andgeneral(0,sumcnt156_sum,sumcnt156_cnt,eecm1))?("Diseño y producción"):("")))));
+ var c3M147=(((((c3M145)*(c3H147)))+(((((c3M143)!=(false)))?(c3H146):(0)))));var tmp157=(((c3M143)==(false)));var tmp158=(((c3M145)==(0)));var sumcnt159_sum=((true&&tmp158)&&tmp157);var sumcnt159_cnt=2;var tmp160=(((c3M143)!=(false)));var tmp161=(((c3M145)==(0)));var sumcnt162_sum=((true&&tmp161)&&tmp160);var sumcnt162_cnt=2;var tmp163=(((c3M143)==(false)));var tmp164=(((c3M145)!=(0)));var sumcnt165_sum=((true&&tmp164)&&tmp163);var sumcnt165_cnt=2;var tmp166=(((c3M143)!=(false)));var tmp167=(((c3M145)!=(0)));var sumcnt168_sum=((true&&tmp167)&&tmp166);var sumcnt168_cnt=2;var c3M148=(((((((((andgeneral(0,sumcnt159_sum,sumcnt159_cnt,eecm1))?(" "):("")))+(((andgeneral(0,sumcnt162_sum,sumcnt162_cnt,eecm1))?("Sólo diseño"):("")))))+(((andgeneral(0,sumcnt165_sum,sumcnt165_cnt,eecm1))?("Sólo producción"):("")))))+(((andgeneral(0,sumcnt168_sum,sumcnt168_cnt,eecm1))?("Diseño y producción"):("")))));var c3M157=(((((c3M155)*(c3H156)))+(((((c3M153)!=(false)))?(c3H155):(0)))));var tmp169=(((c3M153)==(false)));var tmp170=(((c3M155)==(0)));var sumcnt171_sum=((true&&tmp170)&&tmp169);var sumcnt171_cnt=2;var tmp172=(((c3M153)!=(false)));var tmp173=(((c3M155)==(0)));var sumcnt174_sum=((true&&tmp173)&&tmp172);var sumcnt174_cnt=2;var tmp175=(((c3M153)==(false)));var tmp176=(((c3M155)!=(0)));var sumcnt177_sum=((true&&tmp176)&&tmp175);var sumcnt177_cnt=2;var tmp178=(((c3M153)!=(false)));var tmp179=(((c3M155)!=(0)));var sumcnt180_sum=((true&&tmp179)&&tmp178);var sumcnt180_cnt=2;var c3M158=(((((((((andgeneral(0,sumcnt171_sum,sumcnt171_cnt,eecm1))?(" "):("")))+(((andgeneral(0,sumcnt174_sum,sumcnt174_cnt,eecm1))?("Sólo diseño"):("")))))+(((andgeneral(0,sumcnt177_sum,sumcnt177_cnt,eecm1))?("Sólo producción"):("")))))+(((andgeneral(0,sumcnt180_sum,sumcnt180_cnt,eecm1))?("Diseño y producción"):("")))));
+ var c8F1=(ssccf1n(("xlexpression"),("xlew_3_107_13"),("cfc1"),(((((c3K17)==(0)))?(1):(0)))));var c8K1=(ssccf1n(("xlexpression"),("xlew_3_57_13"),("cfc1"),(((((c3K17)==(0)))?(1):(0)))));var c8O1=(ssccf1n(("xlexpression"),("xlew_3_17_13"),("cfc1"),(((((c3K17)==(0)))?(1):(0)))));var c3I6=(((((((((((((((((((((((((((((c3M17)+(c3M27)))+(c3M37)))+(c3M47)))+(c3M57)))+(c3M67)))+(c3M77)))+(c3M87)))+(c3M97)))+(c3M107)))+(c3M117)))+(c3M127)))+(c3M137)))+(c3M147)))+(c3M157)));var c8A1=(ssccf1n(("xlexpression"),("xlew_3_127_13"),("cfc1"),(((((c3M127)==(0)))?(1):(0)))));var c8B1=(ssccf1n(("xlexpression"),("xlew_3_157_13"),("cfc1"),(((((c3M157)==(0)))?(1):(0)))));var c8C1=(ssccf1n(("xlexpression"),("xlew_3_147_13"),("cfc1"),(((((c3M147)==(0)))?(1):(0)))));var c8D1=(ssccf1n(("xlexpression"),("xlew_3_137_13"),("cfc1"),(((((c3M137)==(0)))?(1):(0)))));var c8E1=(ssccf1n(("xlexpression"),("xlew_3_117_13"),("cfc1"),(((((c3M117)==(0)))?(1):(0)))));var c8G1=(ssccf1n(("xlexpression"),("xlew_3_97_13"),("cfc1"),(((((c3M97)==(0)))?(1):(0)))));var c8H1=(ssccf1n(("xlexpression"),("xlew_3_87_13"),("cfc1"),(((((c3M87)==(0)))?(1):(0)))));var c8I1=(ssccf1n(("xlexpression"),("xlew_3_77_13"),("cfc1"),(((((c3M77)==(0)))?(1):(0)))));var c8J1=(ssccf1n(("xlexpression"),("xlew_3_67_13"),("cfc1"),(((((c3M67)==(0)))?(1):(0)))));var c8L1=(ssccf1n(("xlexpression"),("xlew_3_47_13"),("cfc1"),(((((c3M47)==(0)))?(1):(0)))));var c8M1=(ssccf1n(("xlexpression"),("xlew_3_37_13"),("cfc1"),(((((c3M37)==(0)))?(1):(0)))));
+ var c8N1=(ssccf1n(("xlexpression"),("xlew_3_27_13"),("cfc1"),(((((c3M27)==(0)))?(1):(0)))));var c3I8=(((c3I6)*(33.333333)));data['xlew_3_158_13']=c3M158;data['xlew_3_157_13']=c3M157;data['xlew_3_148_13']=c3M148;data['xlew_3_147_13']=c3M147;data['xlew_3_138_13']=c3M138;data['xlew_3_137_13']=c3M137;data['xlew_3_128_13']=c3M128;data['xlew_3_127_13']=c3M127;data['xlew_3_118_13']=c3M118;data['xlew_3_117_13']=c3M117;data['xlew_3_108_13']=c3M108;data['xlew_3_107_13']=c3M107;data['xlew_3_98_13']=c3M98;data['xlew_3_97_13']=c3M97;data['xlew_3_88_13']=c3M88;data['xlew_3_87_13']=c3M87;data['xlew_3_78_13']=c3M78;data['xlew_3_77_13']=c3M77;data['xlew_3_68_13']=c3M68;data['xlew_3_67_13']=c3M67;data['xlew_3_58_13']=c3M58;data['xlew_3_57_13']=c3M57;data['xlew_3_48_13']=c3M48;data['xlew_3_47_13']=c3M47;data['xlew_3_38_13']=c3M38;data['xlew_3_37_13']=c3M37;data['xlew_3_28_13']=c3M28;data['xlew_3_27_13']=c3M27;data['xlew_3_18_13']=c3M18;data['xlew_3_17_13']=c3M17;data['xlew_3_8_9']=c3I8;data['xlew_3_6_9']=c3I6;};
+function postcode() {
+};
+function TriggerOnchange(hiddenId)
+{
+    var e = jQuery.Event('change');
+    $('#'+hiddenId).trigger(e);
+}
+var eeisus=0;var eetrue="TRUE";var eefalse="FALSE";var eedec=".";var eeth=",";var eedecreg=new RegExp("\\.","g");var eethreg=new RegExp(",","g");var eecurrencyreg=new RegExp("[$]","g");var eepercentreg=new RegExp("%","g"); var fmtdaynamesshort=new Array("dom.","lun.","mar.","mié.","jue.","vie.","sáb."); var fmtdaynameslong=new Array("domingo","lunes","martes","miércoles","jueves","viernes","sábado"); var fmtmonthnamesshort=new Array("ene.","feb.","mar.","abr.","may.","jun.","jul.","ago.","sep.","oct.","nov.","dic."); var fmtmonthnameslong=new Array("enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"); var fmtstrings=new Array("/","$"); var fmtdate1=[7,32,3,32,11]; var fmtdate2=[33,25,2]; var fmtdate3=[33,25,0];
+function myIsNaN(x){return(isNaN(x)||(typeof x=='number'&&!isFinite(x)));};
+
+function mod(n,d){return n-d*Math.floor(n/d);};
+
+function round(n,nd){if(isFinite(n)&&isFinite(nd)){var sign_n=(n<0)?-1:1;var abs_n=Math.abs(n);var factor=Math.pow(10,nd);return sign_n*Math.round(abs_n*factor)/factor;}else{return NaN;}};
+
+function andgeneral(cnt,vsum,vcnt,x){if(!vsum){return false;};for(var ii=0;ii<x.length;ii++){var arr=x[ii][0];for(var jj=x[ii][1];jj<=x[ii][3];jj++){for(var kk=x[ii][2];kk<=x[ii][4];kk++){if(!arr[jj][kk]){return false;};};};};return true;};
+
+function eeparseFloat(str){str=String(str).replace(eedecreg,".");var res=parseFloat(str);if(isNaN(res)){return 0;}else{return res;}};
+
+var near0RegExp=new RegExp("[.](.*0000000|.*9999999)");function eedisplayFloat(x){if(myIsNaN(x)){return Number.NaN;}else{var str=String(x);if(near0RegExp.test(str)){x=round(x,8);str=String(x);}return str.replace(/\./g,eedec);}};
+
+function eedisplayScientific(x,nd){if(myIsNaN(x)){return Number.NaN;}else{var str=String(x.toExponential(nd));return str.replace(/\./g,eedec);}};
+
+function eedisplayFloatND(x,nd){if(myIsNaN(x)){return Number.NaN;}else{var res=round(x,nd);if(nd>0){var str=String(res);if(str.indexOf('e')!=-1)return str;if(str.indexOf('E')!=-1)return str;var parts=str.split('.');if(parts.length<2){var decimals=('00000000000000').substring(0,nd);return(parts[0]).toString()+eedec+decimals;}else{var decimals=((parts[1]).toString()+'00000000000000').substring(0,nd);return(parts[0]).toString()+eedec+decimals;}}else{return res;}}};
+
+function eedisplayPercent(x){if(myIsNaN(x)){return Number.NaN;}else{return eedisplayFloat(x*100)+'%';}};
+
+function eedisplayPercentND(x,nd){if(myIsNaN(x)){return Number.NaN;}else{return eedisplayFloatND(x*100,nd)+'%';}}
+
+function eeparseFloatTh(str){str=String(str).replace(eethreg,"");str=String(str).replace(eedecreg,".");var res=parseFloat(str);if(isNaN(res)){return 0;}else{return res;}};
+
+function eedisplayFloatNDTh(x,nd){if(myIsNaN(x)){return Number.NaN;}else{var res=round(x,nd);if(nd>0){var str=String(res);if(str.indexOf('e')!=-1)return str;if(str.indexOf('E')!=-1)return str;var parts=str.split('.');var res2=eeinsertThousand(parts[0].toString());if(parts.length<2){var decimals=('00000000000000').substring(0,nd);return(res2+eedec+decimals);}else{var decimals=((parts[1]).toString()+'00000000000000').substring(0,nd);return(res2+eedec+decimals);}}else{return(eeinsertThousand(res.toString()));}}};
+
+function eedisplayPercentNDTh(x,nd){if(myIsNaN(x)){return Number.NaN;}else{return eedisplayFloatNDTh(x*100,nd)+'%';}}
+
+function eeinsertThousand(whole){if(whole==""||whole.indexOf("e")>=0){return whole;}else{var minus_sign="";if(whole.charAt(0)=="-"){minus_sign="-";whole=whole.substring(1);};var res="";var str_length=whole.length-1;for(var ii=0;ii<=str_length;ii++){if(ii>0&&ii%3==0){res=eeth+res;};res=whole.charAt(str_length-ii)+res;};return minus_sign+res;}};
+
+ function eedatefmt(fmt,x){if(!isFinite(x))return Number.NaN;var padding=0;var tmp=0;var res="";var len=fmt.length;for(var ii=0;ii<len;ii++){if(fmt[ii]>31){res+=fmtstrings[fmt[ii]-32];}else{switch(fmt[ii]){case 2:res+=eemonth(x);break;case 3:tmp=eemonth(x);if(tmp<10){res+="0";};res+=tmp;break;case 4:res+=fmtmonthnamesshort[eemonth(x)-1];break;case 5:res+=fmtmonthnameslong[eemonth(x)-1];break;case 6:res+=eeday(x);break;case 7:tmp=eeday(x);if(tmp<10){res+="0";};res+=tmp;break;case 8:res+=fmtdaynamesshort[weekday(x,1)-1];break;case 9:res+=fmtdaynameslong[weekday(x,1)-1];break;case 10:tmp=year(x)%100;if(tmp<10){res+="0";};res+=tmp;break;case 11:res+=year(x);break;case 12:res+=hour(x);break;case 13:tmp=hour(x);if(tmp<10){res+="0";};res+=tmp;break;case 14:tmp=hour(x)%12;if(tmp==0){res+="12";}else{res+=tmp%12;};break;case 15:tmp=hour(x)%12;if(tmp==0){res+="12";}else{if(tmp<10){res+="0";};res+=tmp;};break;case 16:res+=minute(x);break;case 17:tmp=minute(x);if(tmp<10){res+="0";};res+=tmp;break;case 18:res+=second(x);break;case 19:tmp=second(x);
+ if(tmp<10){res+="0";};res+=tmp;break;case 21:case 22:if(hour(x)<12){res+="AM";}else{res+="PM";};break;case 23:res+=eedisplayFloat(x);break;case 24:tmp=fmt[++ii];res+=eedisplayFloatND(x,tmp);break;case 25:tmp=fmt[++ii];res+=eedisplayFloatNDTh(x,tmp);break;case 26:res+=eedisplayPercent(x);break;case 27:tmp=fmt[++ii];res+=eedisplayPercentND(x,tmp);break;case 28:tmp=fmt[++ii];res+=eedisplayPercentNDTh(x,tmp);break;case 29:tmp=fmt[++ii];res+=eedisplayScientific(x,tmp);break;case 30:padding=fmt[++ii];tmp=hour(x)+Math.floor(x)*24;tmp=tmp.toString();if(tmp.length<padding){res+=('00000000000000').substring(0,padding-tmp.length);}res+=tmp;break;};};};return res;};
+
+function eeisstring(v){switch(typeof v){case "string":return true;case "object":return v.constructor==String;default:return false;}};
+
+ function leap_gregorian(year){return((year%4)==0)&&(!(((year%100)==0)&&((year%400)!=0)));}var GREGORIAN_EPOCH=1721425;function gregorian_to_jd(year,month,day){return(GREGORIAN_EPOCH-0)+(365*(year-1))+Math.floor((year-1)/4)+(-Math.floor((year-1)/100))+Math.floor((year-1)/400)+Math.floor((((367*month)-362)/12)+((month<=2)?0:(leap_gregorian(year)?-1:-2))+day);}function jd_to_gregorian(jd){var wjd,depoch,quadricent,dqc,cent,dcent,quad,dquad,yindex,year,yearday,leapadj;wjd=Math.floor(jd);depoch=wjd-GREGORIAN_EPOCH-1;quadricent=Math.floor(depoch/146097);dqc=mod(depoch,146097);cent=Math.floor(dqc/36524);dcent=mod(dqc,36524);quad=Math.floor(dcent/1461);dquad=mod(dcent,1461);yindex=Math.floor(dquad/365);year=(quadricent*400)+(cent*100)+(quad*4)+yindex;if(!((cent==4)||(yindex==4))){year++;}yearday=wjd-gregorian_to_jd(year,1,1);leapadj=((wjd<gregorian_to_jd(year,3,1))?0:(leap_gregorian(year)?1:2));var month=Math.floor((((yearday+leapadj)*12)+373)/367);var day=(wjd-gregorian_to_jd(year,month,1))+1;
+ return new Array(year,month,day);}
+
+function eeday(serial_number){if(!isFinite(serial_number))return Number.NaN;if(serial_number<1){return 0;}if(serial_number>60)serial_number--;var res=jd_to_gregorian(serial_number+2415020);return res[2];};
+
+function hour(serial_number){if(!isFinite(serial_number))return Number.NaN;var res=Math.floor((serial_number-Math.floor(serial_number))*86400+0.5);return Math.floor(res/3600);}
+
+function minute(serial_number){if(!isFinite(serial_number))return Number.NaN;var res=Math.floor((serial_number-Math.floor(serial_number))*86400+0.5);return Math.floor(res/60)%60;};
+
+function eemonth(serial_number){if(!isFinite(serial_number))return Number.NaN;if(serial_number<1){return 1;}if(serial_number>60)serial_number--;var res=jd_to_gregorian(serial_number+2415020);return res[1];};
+
+function second(serial_number){if(!isFinite(serial_number))return Number.NaN;var res=Math.floor((serial_number-Math.floor(serial_number))*86400+0.5);return res%60;};
+
+ function weekday(serial_number,return_type){if(!isFinite(return_type)||!isFinite(serial_number))return Number.NaN;if(return_type<1||return_type>3)return Number.NaN;var res=Math.floor(serial_number+6)%7;switch(Math.floor(return_type)){case 1:return res+1;case 2:return(res+6)%7+1;case 3:return(res+6)%7;};return "hej";};
+
+function year(serial_number){if(!isFinite(serial_number))return Number.NaN;if(serial_number<1){return 1900;}if(serial_number>60)serial_number--;var res=jd_to_gregorian(serial_number+2415020);return res[0];};
+function submitClick() {recalc_onclick('');
+                if(ssc.Global.formStorage){
+                    if (!ssc.utils.checkIfBrowserSupportStorageSystem() || !Modernizr.indexeddb) $('#formc').submit();
+                    else{
+                        var spin_submit = ssc.Spinner.create($('.toolbar-button-submit'));
+                        spin_submit.start();
+                        ssc.formSubmitModule.callIfOnlineElse(function(){spin_submit.stop();ssc.formSubmitModule.options.before_onlineformsubmit_callback();}, function (){spin_submit.stop();
+                            ssc.formSubmitModule.showOfflineConformationDialog();
+                        });}}else $('#formc').submit();}
+function LoadFromQueryString() {setTimeout(function () {var queryStrings = decodeURI(document.location.search), _readonly = !1;queryStrings.indexOf("_readonly") > -1 && (_readonly = !0), queryStrings.length > 0 && $.each(queryStrings.substr(1).split("&"), function (c, q) {var aQueryString = q.split("=");if (2 == aQueryString.length) {var key = aQueryString[0].toString(), value = aQueryString[1].toString();ssc.formBinder.bind(key,value);}})}, 300)}
+function navigate(e){var t=e.keyCode|e.which;if(t!=13&&t!=40&&t!=38)return;var n=$(e.target||e.srcElement);if(n.is("textarea"))return;if(n.is("select")&&(t==38||t==40))return;var r=parseInt(n.attr("data-sheet"),10);var i=parseInt(n.attr("data-row"),10);var s=parseInt(n.attr("data-col"),10);var o=false;var u=$("#sheet-"+r+"");var a='input:not(":hidden,:button,[readonly=readonly],:disabled"),select,a.ui-slider-handle,textarea';var f=i+1;var l=i-1;var c=f;var h=l;while(t==40&&f<=c||t==38&&l>=h){var p=u.find(a).filter("[data-sheet="+r+"][data-row="+(t==38?l:f)+"][data-col="+s+"]");if(p.length>0){p.focus();if(p.is("input:text, textarea"))p.select();o=true;break}else{var d;if(u.data("col"+s)==undefined){d=u.find(a).filter("[data-sheet="+r+"][data-col="+s+"]").map(function(){return parseInt($(this).attr("data-row"),10)}).toArray();u.data("col"+s,d)}else{d=u.data("col"+s)}c=d[d.length-1];h=d[0];var v="indexOf"in Array.prototype?d.indexOf(i):$.inArray(i,d);if(t==40&&i<c){f=d[v+1]}else if(t==38&&i>h){l=d[v-1]}else{break}}}if(!o){var m;if(t==38)m=parseInt(n.attr("tabindex"),10)-1;else m=parseInt(n.attr("tabindex"),10)+1;var g=u.find(a).filter("[data-sheet][data-row][data-col][tabindex="+m+"]");if(g.length>0){if(g.is(":radio"))g=g.filter(":checked");if(g.length>0){g.focus();if(g.is("input:text, textarea"))g.select()}}else{var y=u.find(a).filter("[data-sheet][data-row][data-col][tabindex]:first");y.focus();if(y.is("input:text, textarea"))y.select()}}e.preventDefault?e.preventDefault():e.returnValue=false}
+var ssccf1n = function(op,id,css,data1){	
+	                switch(op)
+	                {
+                        case 'xlcellvalue':
+		                case 'xltextstring':
+                        case 'xltimeperiod':
+                        case 'xlaboveaveragecondition':
+                        case 'xltop10':
+                        case 'xlblankscondition':
+                        case 'xlnoblankscondition':
+                        case 'xlerrorscondition':
+                        case 'xlnoerrorscondition':
+                        case 'xlexpression':
+			                swapClass(id,css,data1);
+		                    break;
+						case 'image':                               
+                            $('#' + id).attr('src',$('#'+data1).attr('src'));
+                        break;
+      		
+	                }
+                }; 
+                var ssccf4n = function(op,id,colors,data1,data2,data3,data4){
+                    switch(op)
+                    {
+                           
+                    }
+                };var swapClass = function(id,baseCss,flag){
+	                var target = $('#' + id);	                                           
+	                if(flag === 1) 
+	                {	    
+                        target.addClass(baseCss);		               
+	                }
+	                else
+	                {		
+	                	target.removeClass(baseCss);		                
+	                }
+                };
+
+function resetSlider(sliderId,val){$('#'+sliderId).slider('setValue',val);}
+
+  </script>
+</html>
